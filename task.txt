@@ -1,0 +1,43 @@
+0.None,0,sadasd
+AI,0,example_task
+App,0,CS50 APP MOBILE
+App,0,example_task
+Chinese,0,HSK 1-3 UDEMY
+Chinese,0,Sách Từ Vựng Tiếng Trung
+Chinese,0,example_task
+Chinese,0,ÔN HSK 1
+DGNL,0,ANH->TOÁN->TIẾNG VIỆT->KHOA HỌC
+DGNL,0,example_task
+Game,0,Unity
+Game,0,example_task
+IELTS,0,Course IELTS to band 7
+IELTS,0,Sách 20 day
+IELTS,0,example_task
+MMO,0,Digital Marketing
+MMO,0,example_task
+Mua Đồ,0,Thuốc Vitamin B
+Mua Đồ,0,example_task
+Mua Đồ,0,Áo Khoác
+THPT,0,example_task
+Tin,0,DSA 28tech và DSA W3school
+Tin,0,HTML,CSS
+Tin,0,Hacksplanning
+Tin,0,Kali linux UDEMY
+Tin,0,Sách HDONTHI Tin
+Tin,0,USACO GUIDE
+Tin,0,W3school SQL, HTML, CSS, Algo
+Tin,0,W3school cyper security
+Tin,0,example_task
+Tin,0,Ôn Algo Tin python
+Tiếng Việt,0,MINDMAP TIẾNG VIỆT
+Tiếng Việt,0,Sách DGNL Tiếng Việt HCM
+Tiếng Việt,0,Sách Tiếng Việt EMPIRE
+Tiếng Việt,0,Sách Tiếng Việt HSA
+Tiếng Việt,0,example_task
+Toán,0,example_task
+WEB,0,Backend 28tech
+WEB,0,CS50 WEB
+WEB,0,Front end và React
+WEB,0,W3SCHOOL WEB
+WEB,0,WEB DLLT
+WEB,0,example_task

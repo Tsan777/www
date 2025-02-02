@@ -1,0 +1,488 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #E0E0E0; /* Light text color */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Style cho tab bar */
+.tab-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px 0;
+    flex-wrap: wrap; /* Đảm bảo các tab xuống dòng nếu không đủ không gian */
+}
+
+.tab-bar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    text-align: center; /* Căn giữa văn bản bên trong tab */
+    flex: 1; /* Chia đều không gian cho các tab */
+    max-width: 150px; /* Đảm bảo tab không quá rộng */
+}
+
+.tab-bar a:hover, .tab-bar a.active {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Responsive cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+    .tab-bar {
+        flex-direction: column; /* Đặt các tab theo cột */
+        align-items: center; /* Căn giữa các tab */
+    }
+
+    .tab-bar a {
+        flex: none; /* Bỏ chia đều, tab vừa với nội dung */
+        width: 80%; /* Giới hạn tab rộng tối đa 80% màn hình */
+        margin-bottom: 10px; /* Thêm khoảng cách giữa các tab */
+    }
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}
+/*start*/
+.task-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1F1F1F; /* Darker card background */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255);
+}
+
+.todo-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1F1F1F; /* Darker card background */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255);
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #FF9800; /* Soft orange for header */
+}
+
+.task-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px; /* Tăng khoảng cách giữa các phần tử */
+    margin-bottom: 20px;
+    justify-content: flex-end;
+}
+
+.todo-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px; /* Tăng khoảng cách giữa các phần tử */
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+input {
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #444; /* Subtle border */
+    border-radius: 4px;
+    background-color: #333; /* Dark input background */
+    color: #E0E0E0; /* Light text color for input */
+    width: 42%;
+    max-width: 430px;
+    transition: border-color 0.3s ease;
+}
+
+
+.goal-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1F1F1F; /* Darker card background */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255);
+}
+.goal-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px; /* Tăng khoảng cách giữa các phần tử */
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+/* Thiết kế ô nhập và nút "Add goal" */
+#goal-name {
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #444; /* Subtle border */
+    border-radius: 4px;
+    background-color: #333; /* Dark input background */
+    color: #E0E0E0; /* Light text color for input */
+    width: 42%;
+    max-width: 430px;
+    transition: border-color 0.3s ease;
+}
+
+.queue-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1F1F1F; /* Darker card background */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255);
+}
+.queue-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px; /* Tăng khoảng cách giữa các phần tử */
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+/* Thiết kế ô nhập và nút "Add goal" */
+#queue-name {
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #444; /* Subtle border */
+    border-radius: 4px;
+    background-color: #333; /* Dark input background */
+    color: #E0E0E0; /* Light text color for input */
+    width: 42%;
+    max-width: 430px;
+    transition: border-color 0.3s ease;
+}
+
+select {
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #333;
+    color: #E0E0E0;
+    width: 44%;
+    max-width: 450px;
+    transition: border-color 0.3s ease;
+}
+
+select:focus {
+    border-color: #FF9800;
+    outline: none;
+}
+
+button {
+    padding: 12px 18px;
+    background-color: #FF5722; /* Orange button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #E64A19; /* Darker orange when hovered */
+    transform: scale(1.05); /* Phóng to nhẹ */
+}
+input:focus {
+    border-color: #FF9800; /* Cam nhạt khi focus */
+    outline: none;
+}
+/* Mobile-friendly adjustments */
+@media (max-width: 600px) {
+    input {
+        width: 100%; /* Full width cho màn hình nhỏ */
+    }
+}
+
+.clear-btn {
+    background-color: #f44336; /* Red button */
+}
+
+.clear-btn:hover {
+    background-color: #e53935; /* Darker red when hovered */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #2C2C2C; /* Dark background for tasks */
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #E0E0E0; /* Light text color for tasks */
+}
+
+ul li span {
+    font-style: italic;
+    color: #B0B0B0; /* Lighter gray for reward */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.topic-group h2 {
+    margin-top: 20px;
+    color: #FF9800; /* Soft orange for topics */
+}
+
+
+/* Thay đổi màu của checkbox */
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: 2px solid #444; /* Viền checkbox */
+    background-color: #333; /* Màu nền của checkbox */
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+/* Khi checkbox được chọn */
+input[type="checkbox"]:checked {
+    background-color: #FF5722; /* Màu nền khi được chọn */
+    border-color: #FF5722; /* Màu viền khi được chọn */
+}
+
+/* Tạo dấu tích trong checkbox khi được chọn */
+input[type="checkbox"]:checked::after {
+    content: '☑';
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    background-color: #fff; /* Màu dấu tích */
+    border-radius: 2px;
+}
+
+/* Hiệu ứng khi hover checkbox */
+input[type="checkbox"]:hover {
+    border-color: #FF5722; /* Màu viền khi hover */
+}
+
+/* Khi focus vào checkbox (khi nhấn vào) */
+input[type="checkbox"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 87, 34, 0.5); /* Hiệu ứng khi focus */
+}
+/* Container chứa chart */
+.chart-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-color: #2C2C2C; /* Màu nền của info-container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+/* Thêm style cho info-container */
+.info-container {
+    margin-top: 30px;
+    background-color: #2C2C2C; /* Màu nền của info-container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.info-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.info-top label {
+    font-size: 16px;
+    color: #E0E0E0;
+}
+
+.info-bottom {
+    margin-top: 10px;
+}
+
+.info-bottom label {
+    font-size: 16px;
+    color: #E0E0E0;
+}
+
+progress {
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    background-color: #444; /* Màu nền của progress */
+    border-radius: 4px;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: #333; /* Nền của progress bar */
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: #FF5722; /* Màu sắc của thanh tiến trình */
+}
+
+progress[value]::-moz-progress-bar {
+    background-color: #FF5722; /* Màu sắc của thanh tiến trình cho Firefox */
+}
+
+.chart-item {
+    flex: 1;
+    min-width: 300px;
+    max-width: 45%;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+canvas {
+    width: 100% !important;
+    height: 70% !important;
+}
+
+
+.note-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1F1F1F; /* Darker card background */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255);
+}
+.note-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px; /* Tăng khoảng cách giữa các phần tử */
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+#note-name {
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #444; /* Subtle border */
+    border-radius: 4px;
+    background-color: #333; /* Dark input background */
+    color: #E0E0E0; /* Light text color for input */
+    width: 42%;
+    max-width: 430px;
+    transition: border-color 0.3s ease;
+}
+#note-list h3 {
+    color: #FFD700;
+    margin-top: 20px;
+}
+  
+#note-list ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+  
+#note-list li {
+    color: #E0E0E0;
+    margin: 5px 0;
+}
+
+
+.diary-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1F1F1F; /* Darker card background */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255);
+}
+.diary-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px; /* Tăng khoảng cách giữa các phần tử */
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+#diary-name, #diary-content {
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #333;
+    color: #E0E0E0;
+    width: 42%;
+    max-width: 430px;
+    transition: border-color 0.3s ease;
+}
+
+#diary-content {
+    resize: vertical;
+}
+
+#diary-list {
+    margin-top: 20px;
+}
+
+#diary-list li {
+    margin: 10px 0;
+    list-style: none;
+}
+
+details {
+    background: #222;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #444;
+    transition: background 0.3s ease;
+}
+
+details:hover {
+    background: #2e2e2e;
+}
+
+summary {
+    font-weight: bold;
+    color: #FFD700;
+    cursor: pointer;
+    outline: none;
+}
+
+details p {
+    margin: 10px 0 0;
+    padding: 8px;
+    background: #333;
+    border-radius: 4px;
+    color: #E0E0E0;
+    word-wrap: break-word;
+}
