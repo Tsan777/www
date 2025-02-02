@@ -1,24 +1,65 @@
-0.None,0,sadasd
+0.None,0,Lượng giác, ĐSố, giải tích, HìnhH, TKê, Tổ Hợp, XSuất
+Toán,1,4/ Hình học
+Toán,0,5/ Thống kê
+Toán,0,6/ Tổ hợp
+Toán,0,7/ Xác suất
+Toán,0,8/ Tu duy logic
+Toán,0,Làm Hết ứng dụng MOON
+Toán,0,MINDMAP TOÁN THPT
+Toán,0,Sách EMPIRE logic và PTSL
+Toán,0,Sách Logic Moon
+Toán,0,Sách Logic và PTSL HCM
+Toán,0,Sách Toán HDONTHI
+Toán,0,Sách Toán HSA 10,11,12
+Toán,0,Sách Toán MOON 1,2
+Toán,0,example_task
+AI,0,42 h ML and DL UDEMY Python and R
+AI,0,AI VÀ DS DŨNG LLT
+AI,0,ML VÀ DS 90H UDEMY
 AI,0,example_task
+AI,0,web machine learning cơ bản
+Anh,0,Sách Anh EMPIRE
+Anh,0,Sách Anh HSA
+Anh,0,Sách Anh dgnl TRANG Anh
+Anh,0,Sách HDONTHI ANH
+Anh,0,Sách Reading Anh THPT Passage
+Anh,0,Sách THPT 2015
+Anh,0,example_task
 App,0,CS50 APP MOBILE
+App,0,REACT NATIVE Udemy+docs
 App,0,example_task
+Chinese,0,Chinese Beginner UDEMY
 Chinese,0,HSK 1-3 UDEMY
 Chinese,0,Sách Từ Vựng Tiếng Trung
 Chinese,0,example_task
 Chinese,0,ÔN HSK 1
 DGNL,0,ANH->TOÁN->TIẾNG VIỆT->KHOA HỌC
 DGNL,0,example_task
+Game,0,CS50 GAME
+Game,0,Game Roblox 27h
 Game,0,Unity
 Game,0,example_task
+IELTS,0,1500,800 B2 vocab
 IELTS,0,Course IELTS to band 7
 IELTS,0,Sách 20 day
 IELTS,0,example_task
 MMO,0,Digital Marketing
+MMO,0,Shopee 15h Course
 MMO,0,example_task
+Mua Đồ,0,Ghế đỏ gym
+Mua Đồ,0,Huawei Mate X3
+Mua Đồ,0,Kymco K-pipe 50cc
+Mua Đồ,0,Piano  BX-20
+Mua Đồ,0,Sách MOON Toán Tập 2
 Mua Đồ,0,Thuốc Vitamin B
 Mua Đồ,0,example_task
+Mua Đồ,0,mua cặp
 Mua Đồ,0,Áo Khoác
+Mua Đồ,0,Ấm nước
+Mua Đồ,0,Ốp lưng điện thoại
+THPT,0,Anh->Toán->Tin->Lý
 THPT,0,example_task
+Tin,0,CS50X
 Tin,0,DSA 28tech và DSA W3school
 Tin,0,HTML,CSS
 Tin,0,Hacksplanning
@@ -34,9 +75,9 @@ Tiếng Việt,0,Sách DGNL Tiếng Việt HCM
 Tiếng Việt,0,Sách Tiếng Việt EMPIRE
 Tiếng Việt,0,Sách Tiếng Việt HSA
 Tiếng Việt,0,example_task
-Toán,0,example_task
 WEB,0,Backend 28tech
 WEB,0,CS50 WEB
+WEB,0,FIGMA
 WEB,0,Front end và React
 WEB,0,W3SCHOOL WEB
 WEB,0,WEB DLLT
