@@ -24,7 +24,7 @@ game đánh bài
 game: Đảo rồng
 pokemon go có  di chuyển bắt boss solo đánh nhau
 TOPIC: IOT
-camera di động
+Robot Camera di động
 tai nghe dịch ngôn ngữ
 TOPIC: Kinh doanh
 Tiệm máy in 3d và bo mạch điện tử
