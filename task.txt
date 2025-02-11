@@ -46,17 +46,12 @@ IELTS,0,example_task
 MMO,0,Digital Marketing
 MMO,0,Shopee 15h Course
 MMO,0,example_task
-Mua Đồ,0,Ghế đỏ gym
 Mua Đồ,0,Huawei Mate X3
 Mua Đồ,0,Kymco K-pipe 50cc
+Mua Đồ,0,Mua cặp để vừa laptop
 Mua Đồ,0,Piano  BX-20
-Mua Đồ,0,Sách MOON Toán Tập 2
-Mua Đồ,0,Thuốc Vitamin B
 Mua Đồ,0,example_task
-Mua Đồ,0,mua cặp
-Mua Đồ,0,Áo Khoác
-Mua Đồ,0,Ấm nước
-Mua Đồ,0,Ốp lưng điện thoại
+Mua Đồ,0,guqin
 THPT,0,Anh->Toán->Tin->Lý
 THPT,0,example_task
 Tin,0,CS50X

@@ -1,6 +1,6 @@
-name: Tụ Khí Cảnh
-money: 84$
-level: 8.0
-value: 0.7699999999999996
-bar: [0, 3, 0, 0, 0, 0, 0]
-pie: [0, 1, 0, 2]
+name: Kết Đan Cảnh
+money: 177$
+level: 9.0
+value: 0.75
+bar: [0, 0, 1, 1, 8, 0, 0]
+pie: [4, 5, 0, 1]
