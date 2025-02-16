@@ -1,6 +1,6 @@
 name: Kết Đan Cảnh
-money: 177$
-level: 9.0
-value: 0.75
-bar: [0, 0, 1, 1, 8, 0, 0]
-pie: [4, 5, 0, 1]
+money: 200$
+level: 10.0
+value: 0.7200000000000006
+bar: [0, 0, 0, 5, 3, 2, 1]
+pie: [1, 2, 0, 8]
