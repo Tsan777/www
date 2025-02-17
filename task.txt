@@ -1,6 +1,5 @@
 0.None,0,Lượng giác, ĐSố, giải tích, HìnhH, TKê, Tổ Hợp, XSuất
-Toán,1,7/ Xác suất
-Toán,0,5/ Thống kê
+Toán,1,5/ Thống kê
 Toán,0,8/ Tu duy logic
 Toán,0,Làm Hết ứng dụng MOON
 Toán,0,MINDMAP TOÁN THPT
