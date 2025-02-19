@@ -1,15 +1,5 @@
+0.None,1,Tiến đến quá trình giải đề
 0.None,0,Lượng giác, ĐSố, giải tích, HìnhH, TKê, Tổ Hợp, XSuất
-Toán,1,5/ Thống kê
-Toán,0,8/ Tu duy logic
-Toán,0,Làm Hết ứng dụng MOON
-Toán,0,MINDMAP TOÁN THPT
-Toán,0,Sách EMPIRE logic và PTSL
-Toán,0,Sách Logic Moon
-Toán,0,Sách Logic và PTSL HCM
-Toán,0,Sách Toán HDONTHI
-Toán,0,Sách Toán HSA 10,11,12
-Toán,0,Sách Toán MOON 1,2
-Toán,0,example_task
 AI,0,42 h ML and DL UDEMY Python and R
 AI,0,AI VÀ DS DŨNG LLT
 AI,0,ML VÀ DS 90H UDEMY
@@ -62,11 +52,26 @@ Tin,0,W3school SQL, HTML, CSS, Algo
 Tin,0,W3school cyper security
 Tin,0,example_task
 Tin,0,Ôn Algo Tin python
+Tiến đến giải đề DGNL, THPT,0,PTSL, Tư duy logic
+Tiến đến giải đề DGNL, THPT,0,Xong mindmap Lý
+Tiến đến giải đề DGNL, THPT,0,Xong mindmap Toán
+Tiến đến giải đề DGNL, THPT,0,example_task
+Tiến đến giải đề DGNL, THPT,0,Ôn tập Anh
+Tiến đến giải đề DGNL, THPT,0,Ôn tập Tiếng Việt
 Tiếng Việt,0,MINDMAP TIẾNG VIỆT
 Tiếng Việt,0,Sách DGNL Tiếng Việt HCM
 Tiếng Việt,0,Sách Tiếng Việt EMPIRE
 Tiếng Việt,0,Sách Tiếng Việt HSA
 Tiếng Việt,0,example_task
+Toán,0,Làm Hết ứng dụng MOON
+Toán,0,MINDMAP TOÁN THPT
+Toán,0,Sách EMPIRE logic và PTSL
+Toán,0,Sách Logic Moon
+Toán,0,Sách Logic và PTSL HCM
+Toán,0,Sách Toán HDONTHI
+Toán,0,Sách Toán HSA 10,11,12
+Toán,0,Sách Toán MOON 1,2
+Toán,0,example_task
 WEB,0,Backend 28tech
 WEB,0,CS50 WEB
 WEB,0,FIGMA

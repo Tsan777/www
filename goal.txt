@@ -1,4 +1,3 @@
-Toán
 AI
 Anh
 App
@@ -10,5 +9,7 @@ MMO
 Mua Đồ
 THPT
 Tin
+Tiến đến giải đề DGNL, THPT
 Tiếng Việt
+Toán
 WEB
