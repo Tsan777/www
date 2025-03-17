@@ -33,6 +33,7 @@ IELTS,0,example_task
 MMO,0,Digital Marketing
 MMO,0,Shopee 15h Course
 MMO,0,example_task
+Mua Đồ,0,Flycam FPV
 Mua Đồ,0,Huawei Mate X3
 Mua Đồ,0,Kymco K-pipe 50cc
 Mua Đồ,0,Mua cặp để vừa laptop

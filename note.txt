@@ -3,6 +3,8 @@ TOPIC: 0.None
 TOPIC: AI
 Ai chat bot dùng và nghe quen voice của mình
 TOPIC: App
+APP todolist tu tiên
+App MEMRAP
 Bảng vẽ tự xóa tự lưu
 Làm app gym
 Làm app tính tiền hụi
@@ -12,6 +14,7 @@ Quản lý tài chính
 Thư ký AI
 app có thể thử đồ miễn phí
 TOPIC: Game
+App game chơi cờ
 Game gián điệp monster đuổi bắt
 Game giống liên quaN 3d + ff
 Tu tiên tu luyện
@@ -31,6 +34,7 @@ Tiệm máy in 3d và bo mạch điện tử
 cửa hàng tự động
 TOPIC: Social Media
 Dạy về thpt ctm
+Làm kênh về vietsub các truyện
 YOUTUBE:   TRUYỆN TIẾNG ANH SONG NGỮ
 kênh tiktok về sáng tạo hay
 live stream game roblox tiktok
