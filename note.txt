@@ -13,12 +13,14 @@ Phần mềm nút gọi khẩn cấp
 Quản lý tài chính
 Thư ký AI
 app có thể thử đồ miễn phí
+app giải quyết nhu cầu cung-cầu
 TOPIC: Game
 App game chơi cờ
 Game gián điệp monster đuổi bắt
 Game giống liên quaN 3d + ff
 Tu tiên tu luyện
 cờ vây giống chess.com
+game fisher king
 game giống bang bang tank actack
 game kiếm hiệp
 game như chop.io
@@ -28,16 +30,17 @@ game: Đảo rồng
 pokemon go có  di chuyển bắt boss solo đánh nhau
 TOPIC: IOT
 Robot Camera di động
+hệ thống công việc và thưởng cho gia đình
 tai nghe dịch ngôn ngữ
-TOPIC: Kinh doanh
-Tiệm máy in 3d và bo mạch điện tử
-cửa hàng tự động
 TOPIC: Social Media
 Dạy về thpt ctm
 Làm kênh về vietsub các truyện
 YOUTUBE:   TRUYỆN TIẾNG ANH SONG NGỮ
 kênh tiktok về sáng tạo hay
 live stream game roblox tiktok
+TOPIC: Start Up
+Cửa hàng auto tự động hóa
+làm phim chủ tích hcm 3D
 TOPIC: Web App
 A web dạy thêm cho ba
 App đọc truyện đa ngữ, truyện trẻ em

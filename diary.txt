@@ -1,3 +1,32 @@
+2025-04-12
+một số AI
+cursor AI, Manus AI, genspark AI, copycoderAI
+<diarysplit>
+2025-03-19
+gpt prompt learn
+hãy tạo một kế hoạch học tập chi tiết trong 30 ngày. Giúp một người mới bắt đầu như tôi có thể học và phát triển kỹ năng tiếng anh. Kế hoạch nên chia thành các giai đoạn hoặc nhiệm vụ cụ thể hàng ngày, với mục tiêu rõ ràng và khả thi.
+Mỗi ngày cần bao gồm:
+Mụt tiêu của ngày, điều cụ thể mà tôi cần đạt được sau khi hoàn thành nhiệm vụ.
+hoạt động hoặc bài tập thực hành, các bước rõ ràng và dễ hiểu để tôi làm theo.
+về tài nguyên học tập :
+liệt kê tài liệu, công cụ hoặc các nguồn tham khảo mà tôi có thể sử dụng.
+thời lượng học tập:
+gợi ý thời gian tôi cần dành ra mỗi ngày. kế hoạch nên tập trung vào việc xây dựng nền tảng vững chắc trong tuần đầu tiên. dần dẫn nang cao độ khó trong các tuần tiếp theo. và kết thúc với thử
+thách hoặc bài kiểm tra tổng hợp kỹ năng. hãy thiết kế kế hoạch dễ áp dụng, phù hợp với người mới bắt đầu, và đảm bảo tôi có thể theo sát ngay cả khi có thời gian hạn chế
+<diarysplit>
+2025-03-19
+promp học chinese AI, đeepseek, Grok, GPT
+hãy tạo một kế hoạch học tập chi tiết trong 30 ngày. Giúp một người mới bắt đầu như tôi có thể học và phát triển kỹ năng tiếng Trung, hiện tại tôi đã biết bảng chữ cái và cách phát âm tiếng Trung cơ bản. Kế hoạch nên chia thành các giai đoạn hoặc nhiệm vụ cụ thể hàng ngày, với mục tiêu rõ ràng và khả thi. 
+Mỗi ngày cần bao gồm:
+Mục tiêu của ngày, điều cụ thể mà tôi cần đạt được sau khi hoàn thành nhiệm vụ. 
+hoạt động, bài tập thực hành, các bước rõ ràng và dễ hiểu để tôi làm theo. 
+về tài nguyên học tập :
+liệt kê tài liệu, công cụ hoặc các nguồn tham khảo mà tôi có thể sử dụng.Cho tôi link web,link video về các nguồn học tập, có nội dung sẽ học theo các ngày
+
+thời lượng học tập:
+gợi ý thời gian tôi cần dành ra mỗi ngày. kế hoạch nên tập trung vào việc xây dựng nền tảng vững chắc trong tuần đầu tiên. dần dẫn nang cao độ khó trong các tuần tiếp theo. và kết thúc với thử
+thách hoặc bài kiểm tra tổng hợp kỹ năng. hãy thiết kế kế hoạch dễ áp dụng, phù hợp với người mới bắt đầu, và đảm bảo tôi có thể theo sát ngay cả khi có thời gian hạn chế
+<diarysplit>
 2025-03-01
 Phim tuổi thơ ANTV
 cuộc phiêu lưu của chú rùa sammy

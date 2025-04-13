@@ -1,6 +1,6 @@
-name: Đoán Cốt Cảnh
-money: 46$
-level: 13.0
-value: 0.4900000000000002
-bar: [0, 4, 0, 0, 0, 0, 0]
-pie: [0, 0, 0, 4]
+name: Đại Sư Cảnh
+money: 0$
+level: 15.0
+value: 0.6699999999999999
+bar: [0, 0, 0, 0, 0, 2, 0]
+pie: [0, 0, 0, 2]
