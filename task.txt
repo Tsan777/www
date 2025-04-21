@@ -1,13 +1,12 @@
-0.None,1,Tiến đến quá trình giải đề
+THPT,1,Ôn Algo Tin python
+THPT,0,Sách HDONTHI Tin
+THPT,0,W3school SQL, HTML, CSS, Algo
+THPT,0,example_task
 AI,0,42 h ML and DL UDEMY Python and R
 AI,0,AI VÀ DS DŨNG LLT
 AI,0,ML VÀ DS 90H UDEMY
 AI,0,example_task
 AI,0,web machine learning cơ bản
-Anh,0,Sách Anh EMPIRE
-Anh,0,Sách Anh dgnl TRANG Anh
-Anh,0,Sách Reading Anh THPT Passage
-Anh,0,example_task
 App,0,CS50 APP MOBILE
 App,0,REACT NATIVE Udemy+docs
 App,0,example_task
@@ -15,8 +14,10 @@ Chinese,0,Chinese Beginner UDEMY
 Chinese,0,HSK 1-3 UDEMY
 Chinese,0,Sách Từ Vựng Tiếng Trung
 Chinese,0,example_task
-Chinese,0,ÔN HSK 1
-DGNL,0,ANH->TOÁN->TIẾNG VIỆT->KHOA HỌC
+DGNL,0,Sách DGNL Tiếng Việt HCM
+DGNL,0,Sách EMPIRE logic và PTSL
+DGNL,0,Sách Tiếng Việt EMPIRE
+DGNL,0,Tiếng Anh EMPIRE
 DGNL,0,example_task
 Game,0,CS50 GAME
 Game,0,Game Roblox 27h
@@ -26,6 +27,12 @@ IELTS,0,1500,800 B2 vocab
 IELTS,0,Course IELTS to band 7
 IELTS,0,Sách 20 day
 IELTS,0,example_task
+IT,0,CS50X
+IT,0,Hacksplanning
+IT,0,Kali linux UDEMY
+IT,0,USACO GUIDE
+IT,0,W3school cyper security
+IT,0,example_task
 MMO,0,Digital Marketing
 MMO,0,Shopee 15h Course
 MMO,0,example_task
@@ -36,32 +43,6 @@ Mua Đồ,0,Mua cặp để vừa laptop
 Mua Đồ,0,Piano  BX-20
 Mua Đồ,0,example_task
 Mua Đồ,0,guqin
-THPT,0,Anh->Toán->Tin->Lý
-THPT,0,example_task
-Tin,0,CS50X
-Tin,0,DSA 28tech và DSA W3school
-Tin,0,HTML,CSS
-Tin,0,Hacksplanning
-Tin,0,Kali linux UDEMY
-Tin,0,Sách HDONTHI Tin
-Tin,0,USACO GUIDE
-Tin,0,W3school SQL, HTML, CSS, Algo
-Tin,0,W3school cyper security
-Tin,0,example_task
-Tin,0,Ôn Algo Tin python
-Tiến đến giải đề DGNL, THPT,0,Xong mindmap Lý
-Tiến đến giải đề DGNL, THPT,0,example_task
-Tiến đến giải đề DGNL, THPT,0,Ôn tập Anh
-Tiến đến giải đề DGNL, THPT,0,Ôn tập Tiếng Việt
-Tiếng Việt,0,MINDMAP TIẾNG VIỆT
-Tiếng Việt,0,Sách DGNL Tiếng Việt HCM
-Tiếng Việt,0,Sách Tiếng Việt EMPIRE
-Tiếng Việt,0,Sách Tiếng Việt HSA
-Tiếng Việt,0,example_task
-Toán,0,Làm Hết ứng dụng MOON
-Toán,0,Sách EMPIRE logic và PTSL
-Toán,0,Sách Toán MOON 1,2
-Toán,0,example_task
 WEB,0,Backend 28tech
 WEB,0,CS50 WEB
 WEB,0,FIGMA
