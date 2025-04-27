@@ -1,4 +1,3 @@
-THPT
 AI
 App
 Chinese
@@ -8,4 +7,5 @@ IELTS
 IT
 MMO
 Mua Đồ
+THPT
 WEB
