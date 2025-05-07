@@ -11,12 +11,18 @@ Chinese,0,Chinese Beginner UDEMY
 Chinese,0,HSK 1-3 UDEMY
 Chinese,0,Sách Từ Vựng Tiếng Trung
 Chinese,0,example_task
-DGNL,0,Sách DGNL Tiếng Việt HCM
-DGNL,0,Sách EMPIRE logic và PTSL
-DGNL,0,Sách Tiếng Việt EMPIRE
-DGNL,0,Tiếng Anh EMPIRE
-DGNL,0,example_task
-DGNL,0,xong 25 sách 25 đề
+DGNL 7,0,15 đề VACT MAPSTUDY EXCEL
+DGNL 7,0,Sách DGNL Tiếng Việt HCM
+DGNL 7,0,Sách EMPIRE logic và PTSL
+DGNL 7,0,Sách Tiếng Việt EMPIRE
+DGNL 7,0,THẦY BMT
+DGNL 7,0,Tiếng Anh EMPIRE
+DGNL 7,0,example_task
+DGNL 7,0,mapstudy
+DGNL 7,0,sách tăng tốc luyện đề của ba
+DGNL 7,0,xong 25 sách 25 đề
+DGNL 7,0,đề edupen
+DGNL 7,0,đề mk thaybuivancong
 Game,0,CS50 GAME
 Game,0,Game Roblox 27h
 Game,0,Unity
@@ -41,9 +47,10 @@ Mua Đồ,0,Mua cặp để vừa laptop
 Mua Đồ,0,Piano  BX-20
 Mua Đồ,0,example_task
 Mua Đồ,0,guqin
-THPT,0,Sách HDONTHI Tin
-THPT,0,W3school SQL, HTML, CSS, Algo
 THPT,0,example_task
+THPT,0,xong hoàn toàn lý
+THPT,0,xong hoàn toàn tin
+THPT,0,xong hoàn toàn toán
 WEB,0,Backend 28tech
 WEB,0,CS50 WEB
 WEB,0,FIGMA
@@ -51,3 +58,30 @@ WEB,0,Front end và React
 WEB,0,W3SCHOOL WEB
 WEB,0,WEB DLLT
 WEB,0,example_task
+lý 10,0,HDNOTHI 2 cuốn
+lý 10,0,VNA youtube
+lý 10,0,example_task
+lý 10,0,mindmap
+lý 10,0,sách 360
+lý 10,0,sách 50 đề Moon
+lý 10,0,sách tư duy mindmap
+lý 10,0,sách tổng ôn xanh toàn diện
+lý 10,0,sách viecjack
+lý 10,0,sách đề ôn shopee
+tin 5,0,HDONTHI 2 CUÔNs
+tin 5,0,các đề trong folder của ba
+tin 5,0,example_task
+tin 5,0,sách tin thầy bằng
+tin 5,0,sách đề ôn shopee
+toán 11,0,50 đề ôn Moon
+toán 11,0,HDONTHI 2 cuốn
+toán 11,0,example_task
+toán 11,0,folder đề các trường của lợi
+toán 11,0,mindmap toán
+toán 11,0,sách 10 đề pdf
+toán 11,0,sách 20 đề ôn pdf
+toán 11,0,sách 30 đề ôn pdf
+toán 11,0,sách pdf bộ đề ôn cao thanh phúc
+toán 11,0,sách đề ôn shopee
+toán 11,0,đề thầy Dũng HN youtube
+toán 11,0,đề thầy đại youtube 28 các tỉnh

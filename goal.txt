@@ -1,7 +1,7 @@
 AI
 App
 Chinese
-DGNL
+DGNL 7
 Game
 IELTS
 IT
@@ -9,3 +9,6 @@ MMO
 Mua Đồ
 THPT
 WEB
+lý 10
+tin 5
+toán 11

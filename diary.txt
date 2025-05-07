@@ -1,3 +1,86 @@
+2025-05-08
+các cảnh giới
+'Ngưng Khí Cảnh', 
+'Trúc Cơ Cảnh', 
+'Tụ Khí Cảnh',
+ 'Kết Đan Cảnh',
+ 'Đoán Cốt Cảnh',                     
+ 'Đại Sư Cảnh',
+ 'Thiên Huyền Cảnh',
+ 'Thần Chiếu Cảnh',
+ 'Hóa Hư Cảnh',
+ 'Anh Biến Cảnh',
+ 'Dung Hồn Cảnh', 
+'Quy Nguyên Cảnh', 
+'Vấn Đỉnh Cảnh', 
+'Linh Vương Cảnh'
+, 'Độ Kiếp Cảnh',
+ 'Hoàng Giả Cảnh',
+ 'Tông Giả Cảnh', 
+'Tôn Giả Cảnh',
+ 'Chí Tôn Cảnh', 
+'Thiên Tôn Cảnh',
+'Hư Đạo Cảnh', 
+'Trảm Ngã Cảnh', 
+'Thần Giả Cảnh',
+ 'Ngụy Thần Cảnh', 
+'Chân Thần Cảnh',
+'Chiến Thần Cảnh',
+ 'Thần Vương Cảnh',
+ 'Cổ Tiên Cảnh', 
+'Tiên Đạo Cảnh'
+, 'Tiên Vương Cảnh',
+'Tiên Tôn Cảnh', 
+'Thánh Giả Cảnh',
+ 'Đế Cảnh', '
+Đại Đế Cảnh',
+ 'Tiên Đế Cảnh',
+'Vô Thượng Cảnh',
+ 'Thiên Địa Cảnh',
+ 'Đại Đạo'
+, 'Niết Bàn'
+<diarysplit>
+2025-05-07
+APP tiếng trung hữu ích
+22 APP TRUNG QUỐC HỮU DỤNG CHO NGƯỜI LÀM CONTENT
+
+Hồi mới học tiếng Trung mình đã mày mò rất nhiều app trò chuyện với người Trung, sau này làm dịch thuật và làm nội dung fanpage mình cày gần như hầu hết các ứng dụng mạng xã hội và nền tảng video ngắn của Trung Quốc.
+Dưới đây là 1 số app mình đã trải nghiệm và chắt lọc được trong suốt 8 năm qua, mình thường xem để nắm bắt thông tin, tham khảo nội dung, tham khảo ý tưởng, và cũng học được rất nhiều điều hay ho từ chúng.
+
+Để tải app: Đối với Android cứ copy tên app (tên tiếng Trung) lên Google hoặc Baidu tìm, IOS thì 1 số app cần đổi vùng Appstore mới tải được.
+1. Video ngắn: Mình đã test rất nhiều app nhưng chỉ có 4 app này là ổn nhất, những app còn lại đa phần na ná nhau, không có gì đặc trưng.
+- 抖音 - Douyin: Nguồn gốc mọi loại trend và ý tưởng nội dung, tại đây có thể tìm thấy rất nhiều cảm hứng sáng tạo cho Creator. Chỉ cần bạn biết tìm không nội dung gì là Douyin không có. Douyin có tới 4 phiên bản: Nguyên Bản, Hoả Sơn, Cấp Tốc, Tinh Tuyển
+- 快手 - Kuaishou (Kawai): Dễ theo dõi các dạng Series, Sitcom, Phim ngắn, Phim hoạt hình ngắn, Cuộc sống nông thôn… rất thích tính năng quét sang trái hiện toàn video tiếp theo và trước đó của kênh, theo dõi các kênh chuyên làm phim nhiều tập rất tiện. Kuaishou thậm chí còn ra đời trước Douyin 5 năm (2011), lượng traffic hiện tại chỉ đứng sau Douyin. Hầu hết người làm Douyin đều làm cả Kuaishou, nên nếu không đăng ký được tài khoản Douyin thì dùng Kuaishou để tìm ý tưởng cũng khá ổn.
+- 小红书 - Xiaohongshu: Mạnh về content ảnh hơn video (so với Douyin, Kuaishou), ảnh trên xiaohongshu đẹp và đa dạng, tính thẩm mỹ cao, hợp với giới trẻ giống với Instagram. Mình thường tìm ý tưởng concept ảnh/video cho sản phẩm chuyển đổi. Tỉ lệ chuyển đổi (bán hàng) từ 1 kênh Xiaohongshu tốt hơn trên Douyin nhiều.
+- 皮皮虾 - Pipixia: cũng là 1 ứng dụng thuộc ByteDance, app này hay mà ít người biết, nội dung video ngắn và ảnh, thiên về giải trí, hài hước, chọc cười. Đặc trưng của Pipixia là những comment cực kì mặn mòi (神评), comment được tim nhiều hơn post gốc, xem pipixia chủ yếu đọc comment. Nhớ hồi xưa mình đã từng xây page cả 100k follow chỉ với những “thần bình” của các thánh trên Pipixia 😂.
+2. Video
+- 西瓜视频 - Xiguashipin: Hồi xưa Douyin chưa tăng thời lượng video (dưới 60s), mình chủ yếu xem video review phim ở đây, Xigua còn là kho video kiến thức, giải mã vụ án, giải mã khoa học, vlog,… tìm gì cũng có. Sau này Douyin tăng thời lượng video lên thì hầu hết nội dung đều có ở Douyin. Bây giờ chủ yếu xem phim ngắn vì nó dễ theo dõi.
+- 哔哩哔哩 - Bilibili: mình thường xem Anime, Phim hoạt hình TQ, các thể loại kiến thức, giáo dục và vlog du học sinh trên này, nền tảng này mình thấy hợp với genZ
+- 1 số app mình đã từng dùng để xem phim truyền hình và show thực tế: iQIYI, WeTV, MangoTV, Youku. Phim hay ở đây đa phần phải nâng VIP mới xem full được 🥹. Mấy app này chủ yếu dành cho những bạn đu Cbiz thôi, sau này không có nhiều thời gian nên gần như chẳng đụng đến nữa.
+3. Tin tức
+- 微博 - Weibo: Lướt newfeed xem đa dạng nội dung kiểu FB, hầu như nội dung gì cũng có, trên này có kênh của cá nhân, kênh tổ chức, kênh người nổi tiếng, kênh cộng đồng. Mình chủ yếu follow để lấy thông tin Cbiz, người nổi tiếng, các kênh Anime, Art, nhà cửa, xe cộ…
+- 新浪新闻 - Sina: Chủ yếu là theo dõi tin tức chính trị, đọc báo, hóng drama, thông tin Cbiz
+- 今日头条 - Toutiao: định dạng ban đầu là trang tin tức, thuộc sở hữu của Bytedance, Toutiao cùng với Douyin và Xigua, 3 nền tảng này có thể đồng bộ tài khoản với nhau, kiểu như Facebook, Instagram và Threads
+- 百度 - Baidu: Ngoài chức năng tìm kiếm theo từ khoá Baidu còn tích hợp rất nhiều tính năng và dịch vụ khác, khá giống hệ sinh thái Google.
+4. Mạng xã hội viết (dành cho người biết tiếng Trung ở mức khá)
+- 简书 - Jianshu: Mạng xã hội viết (dành cho tâm hồn yêu văn học). Nhiều bài tản văn của những người vô danh cực kì hay.
+- 之乎 - Zhihu: Chỉ có thứ bạn không nghĩ ra chứ không gì là không có, từ truyện ngắn kì, dài kì, topic đủ các thể loại, đến những bài kiến thức rất sâu sắc và hàn lâm. Hồi xưa mình cũng làm 1 page dịch truyện từ Zhihu, làm cùng với 1 bạn giáo viên Tiếng Trung, làm page dạng này tốn rất nhiều thời gian, có khi mấy ngày mới được 1 bài, mà lại khó viral hơn làm video nhiều. Nhưng cả 1 cộng đồng cùng làm thì lại khác, như Group Weibo Việt Nam, các thành viên trong này chuyên dịch bài từ Zhihu, Jianshu, ngày nào cũng có nội dung cả mà tương tác rất tốt.
+- 豆瓣 - Douban: Chủ yếu mình vào xem các cao nhân bình phẩm, đánh giá những bộ phim mình đang muốn xem hay sách mình đang tìm đọc. Lướt cái newfeed của Douban thấy hơi nhạt.
+- 文案管: Kiểu lướt đọc quote, một số câu quote sưu tầm từ bình luận hot trên 网易 (app nghe nhạc) khá hay. Dành cho những bạn thích dịch những câu trích dẫn ngắn.
+5. Edit video
+- 剪映 - Jianying: bản Trung của Capcut, trước giờ mình chỉ dùng Jianying chưa từng dùng Capcut, Jianying rất nhiều tính năng hay ho mà Capcut không có.
+- 快影 - Kuaiying (KwaiCut): Không thua kém Jianying là mấy, mình từng dùng nó trước khi biết đến Jianying, cũng phải 6, 7 năm rồi. Bây giờ theo thói quen vẫn tải về nhưng không có dùng tới vì Jianying là vô địch 🥲
+6. Tool phân tích: Mình dùng để phân tích và nghiên cứu chuyên sâu nội dung chuyển đổi và sản phẩm đang trend trên Douyin
+- 抖查查 - Douchacha: dùng ổn, tính năng khá đầy đủ, độ chính xác ok, load dữ liệu hơi lâu, hiện mình đang dùng cái này vì giá nó phải chăng 🥹
+- 蝉妈妈 - Chanmama: độ chính xác cao, tính năng nổi bật là có thể xem live và bảng doanh số live của kênh theo thời gian thực, dùng mượt, giá hơi chát.
+Và còn một số mini app của Wechat nữa, nhiều cái dùng tách thoại ra text hoặc tải xuống không logo rất hữu ích.
+
+Nguồn: Nguyễn Thái Dương
+<diarysplit>
+2025-05-06
+web tài liệu sinh viên
+https://cuuduongthancong.com/
+<diarysplit>
 2025-04-22
 Những người thầy
 Ba
