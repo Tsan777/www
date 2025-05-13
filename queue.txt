@@ -1,11 +1,7 @@
-CODE THÊM TÍNH NĂNG TODOLIST
-ôn hk2
-Toán Thực tế pdf
-Casio Toán DGNL và THPT
-toán min max hình học
-Bổ sung TOán Facebook
+kiểm tra lỗi của Todolist
 Đưa MOON vào Mindmap Toán
-tính đường của các tam giác đặc biệt
+Casio Toán DGNL và THPT
+Toán Thực tế pdf
 RÚT GỌN toán
 Tin GPT
 Bổ sung tin thầyằng
@@ -24,4 +20,3 @@ Quỷ cốc tử Kinh
 đạo đức kinh
 Xe Robot Camera di động
 Học Figma và thiết kế web
-cày cổ chân nhân

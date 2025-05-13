@@ -78,6 +78,7 @@ toán 11,0,HDONTHI 2 cuốn
 toán 11,0,example_task
 toán 11,0,folder đề các trường của lợi
 toán 11,0,mindmap toán
+toán 11,0,pdf HDONTHI drive
 toán 11,0,sách 10 đề pdf
 toán 11,0,sách 20 đề ôn pdf
 toán 11,0,sách 30 đề ôn pdf
