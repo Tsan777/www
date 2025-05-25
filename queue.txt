@@ -1,6 +1,10 @@
-kiểm tra lỗi của Todolist
-Đưa MOON vào Mindmap Toán
-Casio Toán DGNL và THPT
+giải đề tin trong file pdf HDONTHI
+Lý Youtube
+Casio đánh giá năng lực
+thuộc 16topic CN
+lời nhắc pop up mở auto khi mở máy
+thêm thông báo cho todo,có on off
+lời nhắc popup trong main lưu đc TODO
 Toán Thực tế pdf
 RÚT GỌN toán
 Tin GPT
