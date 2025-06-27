@@ -1,3 +1,6 @@
+SOẠN lịch hè
+SET UP TRƯỜNG ĐẠI HỌC
+FIX BUG TODO APP
 Nội quán
 show cais level canh tiep theo
 ghim task

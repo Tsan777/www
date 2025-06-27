@@ -1,3 +1,10 @@
+2025-06-28
+Phương pháp làm việc xxx
+Phương pháp làm min dần:
+dùng mindmap, từ 1 cái nào đó chia ra thành các mục tiêu nhỏ hơn và làm nó nhỏ hơn dần, đến khi nhỏ nhất có thể, sau đó chọn độ ưu tiên cho các nhánh và sắp xếp những việc cần làm tùy theo trường hợp mỗi cá nhân.
+Phương pháp chia module:
+1 bài toán lớn chia thành các bài toán nhỏ , 1 vấn đề được chia thành các phân khác nhau vấn đề khác nhau sau đó ghép nối lại để hoàn thành vấn đề lớn
+<diarysplit>
 2025-06-15
 Web học ngoại ngữ hay
 ngoại ngữ:

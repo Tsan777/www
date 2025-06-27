@@ -6,14 +6,13 @@ AI,0,web machine learning cơ bản
 App,0,CS50 APP MOBILE
 App,0,REACT NATIVE Udemy+docs
 App,0,example_task
-Chinese,0,Chinese Beginner UDEMY
-Chinese,0,HSK 1-3 UDEMY
-Chinese,0,Sách Từ Vựng Tiếng Trung
-Chinese,0,example_task
 Game,0,CS50 GAME
 Game,0,Game Roblox 27h
 Game,0,Unity
 Game,0,example_task
+Hoc IOT, co dien tu,0,example_task
+Hoc kien thuc dai hoc,0,cuuduongthancong
+Hoc kien thuc dai hoc,0,example_task
 IELTS,0,1500,800 B2 vocab
 IELTS,0,Course IELTS to band 7
 IELTS,0,Sách 20 day
@@ -35,6 +34,10 @@ Mua Đồ,0,Mua cặp để vừa laptop
 Mua Đồ,0,Piano  BX-20
 Mua Đồ,0,example_task
 Mua Đồ,0,guqin
+Tiếng Trung,0,Chinese Beginner UDEMY
+Tiếng Trung,0,HSK 1-3 UDEMY
+Tiếng Trung,0,Sách Từ Vựng Tiếng Trung
+Tiếng Trung,0,example_task
 WEB,0,Backend 28tech
 WEB,0,CS50 WEB
 WEB,0,FIGMA

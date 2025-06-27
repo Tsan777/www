@@ -1,6 +1,6 @@
 name: Thần Chiếu Cảnh
-money: 420$
+money: 392$
 level: 22.0
 value: 0.4400000000000013
-bar: [0, 0, 0, 50, 0, 0, 0]
+bar: [0, 0, 50, 0, 0, 0, 0]
 pie: [0, 37, 5, 8]
