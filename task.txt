@@ -1,3 +1,8 @@
+Tiếng Trung,1,sách giao tiếp chinese
+Tiếng Trung,0,Chinese Beginner UDEMY
+Tiếng Trung,0,HSK 1-3 UDEMY
+Tiếng Trung,0,Sách Từ Vựng Tiếng Trung
+Tiếng Trung,0,example_task
 AI,0,42 h ML and DL UDEMY Python and R
 AI,0,AI VÀ DS DŨNG LLT
 AI,0,ML VÀ DS 90H UDEMY
@@ -10,7 +15,11 @@ Game,0,CS50 GAME
 Game,0,Game Roblox 27h
 Game,0,Unity
 Game,0,example_task
+Hoc IOT, co dien tu,0,IOT
+Hoc IOT, co dien tu,0,Lập trình nhúng
+Hoc IOT, co dien tu,0,Vật liệu, gia công, in 3D
 Hoc IOT, co dien tu,0,example_task
+Hoc IOT, co dien tu,0,động học, động lực học
 Hoc kien thuc dai hoc,0,cuuduongthancong
 Hoc kien thuc dai hoc,0,example_task
 IELTS,0,1500,800 B2 vocab
@@ -23,7 +32,6 @@ IT,0,Kali linux UDEMY
 IT,0,USACO GUIDE
 IT,0,W3school cyper security
 IT,0,example_task
-LÀM GIÀU,0,example_task
 MMO,0,Digital Marketing
 MMO,0,Shopee 15h Course
 MMO,0,example_task
@@ -34,10 +42,6 @@ Mua Đồ,0,Mua cặp để vừa laptop
 Mua Đồ,0,Piano  BX-20
 Mua Đồ,0,example_task
 Mua Đồ,0,guqin
-Tiếng Trung,0,Chinese Beginner UDEMY
-Tiếng Trung,0,HSK 1-3 UDEMY
-Tiếng Trung,0,Sách Từ Vựng Tiếng Trung
-Tiếng Trung,0,example_task
 WEB,0,Backend 28tech
 WEB,0,CS50 WEB
 WEB,0,FIGMA
