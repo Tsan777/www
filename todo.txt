@@ -8,6 +8,7 @@ Skill: Code, Language, Machine
 Money: Project, Tiktok, Invest, Youtube
 Nghe Motivation
 Tắm sáng
+-Làm Nhiệm Vụ WorkWise
 
 afternoon:
 Làm việc về kiếm tiền
@@ -15,6 +16,8 @@ Nghe Motivation
 Tập Full
 Skill: Code, Language, Machine
 Money: Project, Tiktok, Invest, Youtube
+-Làm Nhiệm Vụ WorkWise
+thành: khtn, gdcd, lsdl, công nghệ
 
 evening:
 Tắm sớm
@@ -25,3 +28,4 @@ Nghe Motivation
 Đánh răng
 Skill: Code, Language, Machine
 Money: Project, Tiktok, Invest, Youtube
+-Làm Nhiệm Vụ WorkWise
