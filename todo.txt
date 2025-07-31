@@ -1,31 +1,23 @@
 morning:
 Thức trước 5h30-6h
 Ngồi Thiền
-Tập gym 45ph-1h30
 Học CHINESE
 Tắm nắng
 Skill: Code, Language, Machine
 Money: Project, Tiktok, Invest, Youtube
-Nghe Motivation
 Tắm sáng
--Làm Nhiệm Vụ WorkWise
 
 afternoon:
-Làm việc về kiếm tiền
-Nghe Motivation
-Tập Full
 Skill: Code, Language, Machine
 Money: Project, Tiktok, Invest, Youtube
--Làm Nhiệm Vụ WorkWise
-thành: toán, văn, anh, tin
+Dạy thành học
+Tập GYM
 
 evening:
 Tắm sớm
 Viết Nhật kí English-Chinese
 Học IELTS
 Ngồi Thiền
-Nghe Motivation
 Đánh răng
 Skill: Code, Language, Machine
 Money: Project, Tiktok, Invest, Youtube
--Làm Nhiệm Vụ WorkWise

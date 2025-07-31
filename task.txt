@@ -1,9 +1,32 @@
-0.None,0,ádas
-Tiếng Trung,1,sách giao tiếp chinese
-Tiếng Trung,0,Chinese Beginner UDEMY
+0.None,0,Chinese->Invest->Tool->Social Media->Sell
+Tiếng Trung,1,Chinese Beginner UDEMY
 Tiếng Trung,0,HSK 1-3 UDEMY
 Tiếng Trung,0,Sách Từ Vựng Tiếng Trung
 Tiếng Trung,0,example_task
+0 Dropship, affiliate, sell marketing,0,1 Chọn Khóa Học DropShip
+0 Dropship, affiliate, sell marketing,0,2 Dropship shopee, tiktok
+0 Dropship, affiliate, sell marketing,0,3 Nghiên cứu thêm dropship khác
+0 Dropship, affiliate, sell marketing,0,4 Tìm lỗ hỏng dropship
+0 Dropship, affiliate, sell marketing,0,5 Kết Hợp Automation Tool vào
+0 Dropship, affiliate, sell marketing,0,example_task
+1 Code web, app, game, IOT project khởi nghiệp,0,0 Học Code Game Roblox
+1 Code web, app, game, IOT project khởi nghiệp,0,1 Học Code Web nhanh crash course
+1 Code web, app, game, IOT project khởi nghiệp,0,2 Học Code APP Flutter hay react native
+1 Code web, app, game, IOT project khởi nghiệp,0,3 Học Unity
+1 Code web, app, game, IOT project khởi nghiệp,0,4 Học IOT, Điện tử
+1 Code web, app, game, IOT project khởi nghiệp,0,5 Học Thiết kế SolidCad, Figma
+1 Code web, app, game, IOT project khởi nghiệp,0,Chạy Quảng Cáo Google Adsense
+1 Code web, app, game, IOT project khởi nghiệp,0,example_task
+2 Social media, dạy online,0,Học dùng AI, tool automation
+2 Social media, dạy online,0,Học livestream
+2 Social media, dạy online,0,Tạo các hệ thống tự động
+2 Social media, dạy online,0,example_task
+3 Tool, AI, automation tool,0,1 Tìm tool, AI
+3 Tool, AI, automation tool,0,2 Học tạo các hệ thóng tự động
+3 Tool, AI, automation tool,0,example_task
+4 Trade, đầu tư, vàng,0,1 Học các khái niệm trước
+4 Trade, đầu tư, vàng,0,2 Học về đầu tư từ vốn nhỏ
+4 Trade, đầu tư, vàng,0,example_task
 AI,0,42 h ML and DL UDEMY Python and R
 AI,0,AI VÀ DS DŨNG LLT
 AI,0,ML VÀ DS 90H UDEMY
@@ -17,11 +40,6 @@ Game,0,CS50 GAME
 Game,0,Game Roblox 27h
 Game,0,Unity
 Game,0,example_task
-Hoc IOT, co dien tu,0,IOT
-Hoc IOT, co dien tu,0,Lập trình nhúng
-Hoc IOT, co dien tu,0,Vật liệu, gia công, in 3D
-Hoc IOT, co dien tu,0,example_task
-Hoc IOT, co dien tu,0,động học, động lực học
 Hoc kien thuc dai hoc,0,cuuduongthancong
 Hoc kien thuc dai hoc,0,example_task
 IELTS,0,1500,800 B2 vocab
