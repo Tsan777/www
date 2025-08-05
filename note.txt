@@ -1,10 +1,6 @@
-TOPIC: 0.None
-[X] happy new year 2025
-TOPIC: AI
-Ai chat bot dùng và nghe quen voice của mình
 TOPIC: App
-APP todolist tu tiên
 App MEMRAP
+App WorkWise + phần mềm WorkWise
 Làm app gym
 Làm app tính tiền hụi
 Nhân bản con người
@@ -12,6 +8,12 @@ Phần mềm nút gọi khẩn cấp
 Quản lý tài chính
 Thư ký AI
 app giải quyết nhu cầu cung-cầu
+TOPIC: 0.None
+[X] happy new year 2025
+TOPIC: App
+[X] APP todolist tu tiên
+TOPIC: AI
+Ai chat bot dùng và nghe quen voice của mình
 TOPIC: Game
 App game chơi cờ
 Game gián điệp monster đuổi bắt
@@ -42,6 +44,7 @@ kênh tiktok về sáng tạo hay
 live stream game roblox tiktok
 TOPIC: Start Up
 Cửa hàng auto tự động hóa
+Quán cafe đồ chơi điều khiển đá bóng thể thao...
 làm phim chủ tích hcm 3D
 TOPIC: Web App
 A web dạy thêm cho ba
