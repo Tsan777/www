@@ -1,4 +1,12 @@
 0.None,0,Chinese->Invest->Tool->Social Media->Sell
+0.None,0,dụng cụ vệ sinh trọ mới
+0.None,0,giày?
+0.None,0,jack 3.5 2 đầu
+0.None,0,quần áo
+0.None,0,tai nghe
+0.None,0,thảm lau chân
+0.None,0,thẻ nhớ
+0.None,0,áo khoác
 Tiếng Trung,1,Chinese Beginner UDEMY
 Tiếng Trung,0,HSK 1-3 UDEMY
 Tiếng Trung,0,Sách Từ Vựng Tiếng Trung
@@ -40,8 +48,6 @@ Game,0,CS50 GAME
 Game,0,Game Roblox 27h
 Game,0,Unity
 Game,0,example_task
-Hoc kien thuc dai hoc,0,cuuduongthancong
-Hoc kien thuc dai hoc,0,example_task
 IELTS,0,1500,800 B2 vocab
 IELTS,0,Course IELTS to band 7
 IELTS,0,Sách 20 day
@@ -62,6 +68,7 @@ Mua Đồ,0,Mua cặp để vừa laptop
 Mua Đồ,0,Piano  BX-20
 Mua Đồ,0,example_task
 Mua Đồ,0,guqin
+Shopee,0,example_task
 WEB,0,Backend 28tech
 WEB,0,CS50 WEB
 WEB,0,FIGMA
