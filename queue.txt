@@ -16,31 +16,29 @@
 16| các từ tiếng anh ngành
 17| các thuật ngữ trong ngành
 18| Sửa ổ điện
-19| Sửa cửa nhà tắm
-20| Chống động vật trên lau phông
-21| mục thần kí
-22| phàm nhân tu tiên
-23| Đặt Mua Shopee
-24| Lựa, tìm hiểu về record camera
-25| Hỏi gpt về ba, mình, nhà
-26| N8n
-27| Cách nhân lên tài sản
-28| học chơi cổ phiếu, trái phiếu, crypto, vàng online
-29| cài phim haikyuu
-30| Học Xong Roblox để qua web, mobile
-31| Search Chinese Facebook
-32| Chinese->roblox->MMO
-33| Hỏi về các lỗ hỏng củacacs app shopee
-34| one piece
-35| Học nhanh khóa WEB
-36| Nội Quán
-37| học xong sách 20 ielts online
-38| nhìn tương lai dựa vào trung quốc
-39| coi baki
-40| tìm hiểu AI hiện đại
-41| thuộc 16 topic CN
-42| cách livestream tiktok
-43| quỷ cốc tử kinh
-44| đạo đức kinh
-45| Xe robot di động
-46| Học Figma
+19| mục thần kí
+20| phàm nhân tu tiên
+21| Đặt Mua Shopee
+22| Lựa, tìm hiểu về record camera
+23| Hỏi gpt về ba, mình, nhà
+24| N8n
+25| Cách nhân lên tài sản
+26| học chơi cổ phiếu, trái phiếu, crypto, vàng online
+27| cài phim haikyuu
+28| Học Xong Roblox để qua web, mobile
+29| Search Chinese Facebook
+30| Chinese->roblox->MMO
+31| Hỏi về các lỗ hỏng củacacs app shopee
+32| one piece
+33| Học nhanh khóa WEB
+34| Nội Quán
+35| học xong sách 20 ielts online
+36| nhìn tương lai dựa vào trung quốc
+37| coi baki
+38| tìm hiểu AI hiện đại
+39| thuộc 16 topic CN
+40| cách livestream tiktok
+41| quỷ cốc tử kinh
+42| đạo đức kinh
+43| Xe robot di động
+44| Học Figma

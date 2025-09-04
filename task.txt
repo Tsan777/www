@@ -1,12 +1,15 @@
+0.None,0,1cây lau nhà
+0.None,0,1giày? Nếu mang dép thì thôi
+0.None,0,1giường
+0.None,0,1gương
+0.None,0,1vòi sen
+0.None,0,1áo khoác
+0.None,0,1đầu chia nước
+0.None,0,2 bóp mới
+0.None,0,2máy bắt muỗi
+0.None,0,2thảm lau chân
+0.None,0,2thẻ nhớ
 0.None,0,Chinese->Invest->Tool->Social Media->Sell
-0.None,0,dụng cụ vệ sinh trọ mới
-0.None,0,giày?
-0.None,0,jack 3.5 2 đầu
-0.None,0,quần áo
-0.None,0,tai nghe
-0.None,0,thảm lau chân
-0.None,0,thẻ nhớ
-0.None,0,áo khoác
 Tiếng Trung,1,Chinese Beginner UDEMY
 Tiếng Trung,0,HSK 1-3 UDEMY
 Tiếng Trung,0,Sách Từ Vựng Tiếng Trung
