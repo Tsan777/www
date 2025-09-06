@@ -1,10 +1,8 @@
+0.None,0,1 đèn ngủ
 0.None,0,1cây lau nhà
 0.None,0,1giày? Nếu mang dép thì thôi
 0.None,0,1giường
-0.None,0,1gương
-0.None,0,1vòi sen
 0.None,0,1áo khoác
-0.None,0,1đầu chia nước
 0.None,0,2 bóp mới
 0.None,0,2máy bắt muỗi
 0.None,0,2thảm lau chân

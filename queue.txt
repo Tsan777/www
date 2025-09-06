@@ -1,44 +1,51 @@
-1| Lên kế hoạch học tập
-2| Lên kế hoạch kiếm tiền
-3| Lên kế hoạch năm 1 và 3 năm còn lại
-4| Set up camera cho thành
-5| Soạn lịch gym cho ba
-6| Suawr quotes
-7| soạn đề ôn cho thành
-8| Search và hiểu về các khái niệm Điện tử, Trade
-9| Ôn tập tiếng anh
-10| chọn nguồn học cho chuyên ngành
-11| Chọn nguồn ôn tiếng anh đầu vào, IELTS
-12| chọn nguồn học cho đại cương
-13| tạo lộ trình
-14| tạo kế hoạch học tập đại cương, chuyên ngành
-15| Chọn khóa học cho ngành Auto
-16| các từ tiếng anh ngành
-17| các thuật ngữ trong ngành
-18| Sửa ổ điện
-19| mục thần kí
-20| phàm nhân tu tiên
-21| Đặt Mua Shopee
-22| Lựa, tìm hiểu về record camera
-23| Hỏi gpt về ba, mình, nhà
-24| N8n
-25| Cách nhân lên tài sản
-26| học chơi cổ phiếu, trái phiếu, crypto, vàng online
-27| cài phim haikyuu
-28| Học Xong Roblox để qua web, mobile
-29| Search Chinese Facebook
-30| Chinese->roblox->MMO
-31| Hỏi về các lỗ hỏng củacacs app shopee
-32| one piece
-33| Học nhanh khóa WEB
-34| Nội Quán
-35| học xong sách 20 ielts online
-36| nhìn tương lai dựa vào trung quốc
-37| coi baki
-38| tìm hiểu AI hiện đại
-39| thuộc 16 topic CN
-40| cách livestream tiktok
-41| quỷ cốc tử kinh
-42| đạo đức kinh
-43| Xe robot di động
-44| Học Figma
+1| tính toán kế hoạch chi tiêu
+2| mua trứng
+3| hack wifi kali linux
+4| tìm cách tạo dòng tiền
+5| tìm lỗ hổng affiliate
+6| affilate cho các đồ mặt hàng ở HCM
+7| cách làm một kênh viral và nhiều người coi
+8| xây kênh tiktok?
+9| cách đăng lại các video lên kênh
+10| Lên kế hoạch học tập
+11| Lên kế hoạch kiếm tiền
+12| Lên kế hoạch năm 1 và 3 năm còn lại
+13| Set up camera cho thành
+14| Soạn lịch gym cho ba
+15| Suawr quotes
+16| soạn đề ôn cho thành
+17| Search và hiểu về các khái niệm Điện tử, Trade
+18| Ôn tập tiếng anh
+19| chọn nguồn học cho chuyên ngành
+20| Chọn nguồn ôn tiếng anh đầu vào, IELTS
+21| chọn nguồn học cho đại cương
+22| tạo lộ trình
+23| tạo kế hoạch học tập đại cương, chuyên ngành
+24| Chọn khóa học cho ngành Auto
+25| các từ tiếng anh ngành
+26| các thuật ngữ trong ngành
+27| Sửa ổ điện
+28| mục thần kí
+29| phàm nhân tu tiên
+30| Đặt Mua Shopee
+31| Hỏi gpt về ba, mình, nhà
+32| N8n
+33| Cách nhân lên tài sản
+34| học chơi cổ phiếu, trái phiếu, crypto, vàng online
+35| cài phim haikyuu
+36| Search Chinese Facebook
+37| Chinese->roblox->MMO
+38| Hỏi về các lỗ hỏng củacacs app shopee
+39| one piece
+40| Học nhanh khóa WEB
+41| Nội Quán
+42| học xong sách 20 ielts online
+43| nhìn tương lai dựa vào trung quốc
+44| coi baki
+45| tìm hiểu AI hiện đại
+46| thuộc 16 topic CN
+47| cách livestream tiktok
+48| quỷ cốc tử kinh
+49| đạo đức kinh
+50| Xe robot di động
+51| Học Figma
