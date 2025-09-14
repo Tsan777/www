@@ -1,59 +1,75 @@
-1| gpt móng chân
-2| tính kế hoạch tương lai, hướng đi các năm
-3| tính kế hoạch MONEY, PROJECT
-4| tính kế hoạch SHOPEE
-5| tính kế hoạch CAMERA
-6| tính kế hoạch học SKILLS thêm
-7| tính kế hoạch học AUTO, IOT
-8| tính kế hoạch học TOEIC, TADV
-9| tính kế hoạch học CLASS
-10| tính kế hoạch GYM, sinh hoạt
-11| tính toán kế hoạch chi tiêu
-12| tìm cách tạo dòng tiền
-13| tìm lỗ hổng affiliate
-14| affilate cho các đồ mặt hàng ở HCM
-15| cách làm một kênh viral và nhiều người coi
-16| xây kênh tiktok?
-17| cách đăng lại các video lên kênh
-18| Lên kế hoạch học tập
-19| Lên kế hoạch kiếm tiền
-20| Lên kế hoạch năm 1 và 3 năm còn lại
-21| Set up camera cho thành
-22| Soạn lịch gym cho ba
-23| Suawr quotes
-24| soạn đề ôn cho thành
-25| Search và hiểu về các khái niệm Điện tử, Trade
-26| Ôn tập tiếng anh
-27| chọn nguồn học cho chuyên ngành
-28| Chọn nguồn ôn tiếng anh đầu vào, IELTS
-29| chọn nguồn học cho đại cương
-30| tạo lộ trình
-31| tạo kế hoạch học tập đại cương, chuyên ngành
-32| Chọn khóa học cho ngành Auto
-33| các từ tiếng anh ngành
-34| các thuật ngữ trong ngành
-35| Sửa ổ điện
-36| mục thần kí
-37| phàm nhân tu tiên
-38| Đặt Mua Shopee
-39| Hỏi gpt về ba, mình, nhà
-40| N8n
-41| Cách nhân lên tài sản
-42| học chơi cổ phiếu, trái phiếu, crypto, vàng online
-43| cài phim haikyuu
-44| Search Chinese Facebook
-45| Chinese->roblox->MMO
-46| Hỏi về các lỗ hỏng củacacs app shopee
-47| one piece
-48| Học nhanh khóa WEB
-49| Nội Quán
-50| học xong sách 20 ielts online
-51| nhìn tương lai dựa vào trung quốc
-52| coi baki
-53| tìm hiểu AI hiện đại
-54| thuộc 16 topic CN
-55| cách livestream tiktok
-56| quỷ cốc tử kinh
-57| đạo đức kinh
-58| Xe robot di động
-59| Học Figma
+1| CrashCourse
+2| notebook LLM
+3| tts openai
+4| genspark
+5| n8n va ai agent
+6| genlogin
+7| Tool
+8| airdrop
+9| black MMO
+10| MMO
+11| tải thử react native và build app thử
+12| webintoapp chuyen ddooi workwis
+13| tham gia các group, cập nhật
+14| tìm hiểu về công nghệ mới
+15| tìm hiểu về AI
+16| count auto check, delete day
+17| chỉnh độ mạnh của nước
+18| thêm chức năng quản lí money ngày, tháng
+19| gpt móng chân
+20| tính kế hoạch tương lai, hướng đi các năm
+21| tính kế hoạch MONEY, PROJECT
+22| tính kế hoạch GYM, sinh hoạt
+23| tính kế hoạch CAMERA
+24| tính kế hoạch học SKILLS thêm
+25| tính kế hoạch học AUTO, IOT
+26| tính kế hoạch học TOEIC, TADV
+27| tính kế hoạch học CLASS
+28| tính kế hoạch SHOPEE
+29| tìm cách tạo dòng tiền
+30| tìm lỗ hổng affiliate
+31| affilate cho các đồ mặt hàng ở HCM
+32| cách làm một kênh viral và nhiều người coi
+33| xây kênh tiktok?
+34| cách đăng lại các video lên kênh
+35| Lên kế hoạch học tập
+36| Lên kế hoạch kiếm tiền
+37| Lên kế hoạch năm 1 và 3 năm còn lại
+38| Set up camera cho thành
+39| Soạn lịch gym cho ba
+40| Suawr quotes
+41| soạn đề ôn cho thành
+42| Search và hiểu về các khái niệm Điện tử, Trade
+43| Ôn tập tiếng anh
+44| chọn nguồn học cho chuyên ngành
+45| Chọn nguồn ôn tiếng anh đầu vào, IELTS
+46| chọn nguồn học cho đại cương
+47| tạo lộ trình
+48| tạo kế hoạch học tập đại cương, chuyên ngành
+49| Chọn khóa học cho ngành Auto
+50| các từ tiếng anh ngành
+51| các thuật ngữ trong ngành
+52| Sửa ổ điện
+53| mục thần kí
+54| phàm nhân tu tiên
+55| Đặt Mua Shopee
+56| Hỏi gpt về ba, mình, nhà
+57| N8n
+58| Cách nhân lên tài sản
+59| học chơi cổ phiếu, trái phiếu, crypto, vàng online
+60| cài phim haikyuu
+61| Search Chinese Facebook
+62| Chinese->roblox->MMO
+63| Hỏi về các lỗ hỏng củacacs app shopee
+64| Học nhanh khóa WEB
+65| Nội Quán
+66| học xong sách 20 ielts online
+67| nhìn tương lai dựa vào trung quốc
+68| coi baki
+69| tìm hiểu AI hiện đại
+70| thuộc 16 topic CN
+71| cách livestream tiktok
+72| quỷ cốc tử kinh
+73| đạo đức kinh
+74| Xe robot di động
+75| Học Figma

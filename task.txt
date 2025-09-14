@@ -1,13 +1,23 @@
+0.None,0,1 ban
+0.None,0,1 bóp mới
+0.None,0,1 bạc phủ xe
+0.None,0,1 cốc
+0.None,0,1 dép đi trong nhà
+0.None,0,1 ghế
+0.None,0,1 gói
+0.None,0,1 ly
+0.None,0,1 nệm
+0.None,0,1 thảm lau chân
 0.None,0,1 đèn ngủ
 0.None,0,1cây lau nhà
 0.None,0,1giày? Nếu mang dép thì thôi
 0.None,0,1giường
 0.None,0,1áo khoác
-0.None,0,2 bóp mới
 0.None,0,2máy bắt muỗi
 0.None,0,2thảm lau chân
 0.None,0,2thẻ nhớ
 0.None,0,Chinese->Invest->Tool->Social Media->Sell
+0.None,0,lấy lọc trà bình nước
 Tiếng Trung,1,Chinese Beginner UDEMY
 Tiếng Trung,0,HSK 1-3 UDEMY
 Tiếng Trung,0,Sách Từ Vựng Tiếng Trung
