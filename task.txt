@@ -1,5 +1,7 @@
 0.None,0,1 ban
 0.None,0,1 nệm
+0.None,0,1 ấm điện
+0.None,0,1 ổ cấm
 0.None,0,1áo khoác
 0.None,0,2máy bắt muỗi
 0.None,0,2thảm lau chân
