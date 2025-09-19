@@ -1,6 +1,6 @@
-name: 🩸 Bàn Huyết Cảnh Cao Giai 🔥
-money: 973$
-level: 22.0
-value: 0.6799999999999997
-bar: [1, 0, 1, 1, 0, 1, 0]
-pie: [0, 1, 0, 3]
+name: 🩸 Bàn Huyết Cảnh Đỉnh Phong 🏔️
+money: 1180$
+level: 23.0
+value: 0.10000000000000142
+bar: [0, 1, 1, 0, 1, 0, 13]
+pie: [0, 1, 0, 15]
