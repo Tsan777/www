@@ -1,23 +1,8 @@
 morning:
-Thức trước 5h30-6h
-Ngồi Thiền
-Học CHINESE
-Tắm nắng
-Skill: Code, Language, Machine
-Money: Project, Tiktok, Invest, Youtube
-Tắm sáng
+học
 
 afternoon:
-Skill: Code, Language, Machine
-Money: Project, Tiktok, Invest, Youtube
-Dạy thành học
-Tập GYM
+học
 
 evening:
-Tắm sớm
-Viết Nhật kí English-Chinese
-Học IELTS
 Ngồi Thiền
-Đánh răng
-Skill: Code, Language, Machine
-Money: Project, Tiktok, Invest, Youtube

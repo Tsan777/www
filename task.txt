@@ -1,8 +1,4 @@
-0.None,0,1 ban
-0.None,0,1 nệm
 0.None,0,1 ấm điện
-0.None,0,1 ổ cấm
-0.None,0,1áo khoác
 0.None,0,2máy bắt muỗi
 0.None,0,2thảm lau chân
 0.None,0,2thẻ nhớ
@@ -14,10 +10,8 @@
 0.None,0,lấy ly
 0.None,0,lấy lọc trà bình nước
 0.None,0,lấy đồ sử điện tử
-Tiếng Trung,1,Chinese Beginner UDEMY
-Tiếng Trung,0,HSK 1-3 UDEMY
-Tiếng Trung,0,Sách Từ Vựng Tiếng Trung
-Tiếng Trung,0,example_task
+học,1,Ôn tiếng anh đầu vào
+học,0,example_task
 0 Dropship, affiliate, sell marketing,0,1 Chọn Khóa Học DropShip
 0 Dropship, affiliate, sell marketing,0,2 Dropship shopee, tiktok
 0 Dropship, affiliate, sell marketing,0,3 Nghiên cứu thêm dropship khác
@@ -75,7 +69,10 @@ Mua Đồ,0,Mua cặp để vừa laptop
 Mua Đồ,0,Piano  BX-20
 Mua Đồ,0,example_task
 Mua Đồ,0,guqin
-Shopee,0,example_task
+Tiếng Trung,0,Chinese Beginner UDEMY
+Tiếng Trung,0,HSK 1-3 UDEMY
+Tiếng Trung,0,Sách Từ Vựng Tiếng Trung
+Tiếng Trung,0,example_task
 WEB,0,Backend 28tech
 WEB,0,CS50 WEB
 WEB,0,FIGMA

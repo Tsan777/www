@@ -1,70 +1,71 @@
-1| Dropship/affliliate CN
-2| làm giấy vay vốn cho ba
-3| chế ghế ngồi bệt từ ghế nhựa
-4| course hub
-5| MEMRAP
-6| Chọn ý tưởng, NCKH
-7| thêm chức năng quản lí money ngày, tháng
-8| count auto check, delete day
-9| MEMRAP thêm chức năng cảm thấy ko ok thì hc lại
-10| Suawr quotes
-11| n8n va ai agent
-12| airdrop
-13| black MMO
-14| MMO
-15| tải thử react native và build app thử
-16| webintoapp chuyen ddooi workwis
-17| Cursor AI
-18| gpt móng chân
-19| tính kế hoạch tương lai, hướng đi các năm
-20| tính kế hoạch MONEY, PROJECT
-21| tính kế hoạch GYM, sinh hoạt
-22| tính kế hoạch CAMERA
-23| tính kế hoạch học SKILLS thêm
-24| tính kế hoạch học AUTO, IOT
-25| tính kế hoạch học TOEIC, TADV
-26| tính kế hoạch học CLASS
-27| tìm cách tạo dòng tiền
-28| tìm lỗ hổng affiliate
-29| affilate cho các đồ mặt hàng ở HCM
-30| cách làm một kênh viral và nhiều người coi
-31| xây kênh tiktok?
-32| cách đăng lại các video lên kênh
-33| CrashCourse
-34| Lên kế hoạch học tập
-35| Lên kế hoạch kiếm tiền
-36| Lên kế hoạch năm 1 và 3 năm còn lại
-37| Set up camera cho thành
-38| Soạn lịch gym cho ba
-39| soạn đề ôn cho thành
-40| Search và hiểu về các khái niệm Điện tử, Trade
-41| Ôn tập tiếng anh
-42| chọn nguồn học cho chuyên ngành
-43| Chọn nguồn ôn tiếng anh đầu vào, IELTS
-44| chọn nguồn học cho đại cương
-45| tạo lộ trình
-46| tạo kế hoạch học tập đại cương, chuyên ngành
-47| Chọn khóa học cho ngành Auto
-48| các từ tiếng anh ngành
-49| các thuật ngữ trong ngành
-50| Sửa ổ điện
-51| Hỏi gpt về ba, mình, nhà
-52| N8n
-53| Cách nhân lên tài sản
-54| học chơi cổ phiếu, trái phiếu, crypto, vàng online
-55| cài phim haikyuu
-56| Search Chinese Facebook
-57| Chinese->roblox->MMO
-58| Hỏi về các lỗ hỏng củacacs app shopee
-59| Học nhanh khóa WEB
-60| Nội Quán
-61| học xong sách 20 ielts online
-62| nhìn tương lai dựa vào trung quốc
-63| coi baki
-64| tìm hiểu AI hiện đại
-65| thuộc 16 topic CN
-66| cách livestream tiktok
-67| quỷ cốc tử kinh
-68| đạo đức kinh
-69| Xe robot di động
-70| Học Figma
+1| thêm time.sleep giữa thongbao va readword
+2| Ôn tập tiếng anh
+3| hoặc là các độ khó cho quêu
+4| tổng hợp tài liệu
+5| học firebase
+6| thêm main cho queue?
+7| n8n va ai agent
+8| shopify -> shopee
+9| affliate -> dropship
+10| DONG TIEN
+11| dropship, affiliate với shopee, tiktok sử dụng n8n và genlogin
+12| Chọn ý tưởng, NCKH
+13| Dropship/affliliate CN
+14| course hub
+15| MEMRAP thêm chức năng cảm thấy ko ok thì hc lại
+16| airdrop
+17| black MMO
+18| MMO
+19| tải thử react native và build app thử
+20| soạn tkb
+21| Cursor AI
+22| gpt móng chân
+23| tính kế hoạch tương lai, hướng đi các năm
+24| tính kế hoạch MONEY, PROJECT
+25| tính kế hoạch GYM, sinh hoạt
+26| tính kế hoạch CAMERA
+27| tính kế hoạch học SKILLS thêm
+28| tính kế hoạch học AUTO, IOT
+29| tính kế hoạch học TOEIC, TADV
+30| tính kế hoạch học CLASS
+31| tìm cách tạo dòng tiền
+32| tìm lỗ hổng affiliate
+33| affilate cho các đồ mặt hàng ở HCM
+34| cách làm một kênh viral và nhiều người coi
+35| xây kênh tiktok?
+36| cách đăng lại các video lên kênh
+37| CrashCourse
+38| Lên kế hoạch học tập
+39| Lên kế hoạch kiếm tiền
+40| Lên kế hoạch năm 1 và 3 năm còn lại
+41| Set up camera cho thành
+42| Soạn lịch gym cho ba
+43| soạn đề ôn cho thành
+44| Search và hiểu về các khái niệm Điện tử, Trade
+45| chọn nguồn học cho chuyên ngành
+46| Chọn nguồn ôn tiếng anh đầu vào, IELTS
+47| chọn nguồn học cho đại cương
+48| tạo lộ trình
+49| tạo kế hoạch học tập đại cương, chuyên ngành
+50| Chọn khóa học cho ngành Auto
+51| các từ tiếng anh ngành
+52| các thuật ngữ trong ngành
+53| Hỏi gpt về ba, mình, nhà
+54| N8n
+55| Cách nhân lên tài sản
+56| học chơi cổ phiếu, trái phiếu, crypto, vàng online
+57| cài phim haikyuu
+58| Search Chinese Facebook
+59| Chinese->roblox->MMO
+60| Hỏi về các lỗ hỏng củacacs app shopee
+61| Học nhanh khóa WEB
+62| Nội Quán
+63| học xong sách 20 ielts online
+64| nhìn tương lai dựa vào trung quốc
+65| coi baki
+66| thuộc 16 topic CN
+67| cách livestream tiktok
+68| quỷ cốc tử kinh
+69| đạo đức kinh
+70| Xe robot di động
+71| Học Figma
