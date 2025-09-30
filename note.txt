@@ -1,6 +1,9 @@
+TOPIC: AI
+Ai chat bot dùng và nghe quen voice của mình
 TOPIC: App
 App MEMRAP
 App WorkWise + phần mềm WorkWise
+App tu tiên kiểu hệ thống nhiệm vụ
 Làm app gym
 Làm app tính tiền hụi
 Nhân bản con người
@@ -8,12 +11,6 @@ Phần mềm nút gọi khẩn cấp
 Quản lý tài chính
 Thư ký AI
 app giải quyết nhu cầu cung-cầu
-TOPIC: 0.None
-[X] happy new year 2025
-TOPIC: App
-[X] APP todolist tu tiên
-TOPIC: AI
-Ai chat bot dùng và nghe quen voice của mình
 TOPIC: Game
 App game chơi cờ
 Game gián điệp monster đuổi bắt
