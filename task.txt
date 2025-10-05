@@ -3,7 +3,6 @@
 0.None,0,2thảm lau chân
 0.None,0,2thẻ nhớ
 0.None,0,cây lau nhà
-0.None,0,giường
 0.None,0,gói
 0.None,0,lấy ly
 0.None,0,lấy lọc trà bình nước
@@ -20,7 +19,9 @@
 2 Kiếm nhiều tiền từ MMO,0,Shopee 15h udemy course
 2 Kiếm nhiều tiền từ MMO,0,Tạo các dòng tiền, hế thống tự động
 2 Kiếm nhiều tiền từ MMO,0,example_task
+3 Lấy Học bổng,0,Tin học cơ bản
 3 Lấy Học bổng,0,example_task
+3 Lấy Học bổng,0,toán cao cấp
 4 Học Hết kiến thức Ngành Auto,0,example_task
 5 Code web, app, game, IOT project khởi nghiệp,0,1 Học Code Web nhanh crash course
 5 Code web, app, game, IOT project khởi nghiệp,0,2 Học Code APP react native

@@ -1,21 +1,21 @@
-1| xong sách tiếng anh đầu vào
-2| hoc firebase, firebase cho WorkWise
-3| tổng hợp tài liệu
-4| Make Skull edit
-5| làm thuyết trình lẹ
-6| Làm video bằng LLM
-7| Ôn tập tiếng anh
-8| ask rồi mới xóa
-9| queue ngoài check còn có main
-10| n8n va ai agent
-11| shopify -> shopee
-12| affliate -> dropship
-13| DONG TIEN
-14| dropship, affiliate với shopee, tiktok sử dụng n8n và genlogin
-15| Chọn ý tưởng, NCKH
-16| Dropship/affliliate CN
-17| course hub
-18| MEMRAP thêm chức năng cảm thấy ko ok thì hc lại
+1| Kênh FOR NotebookLLM
+2| IUHUB
+3| MEMRAP + AI + CAMERA
+4| WorkWise tu tiên bản app, webapp
+5| PU, PL, SQ, SU, LƯNG, EO, THIỀN
+6| CK, Forex, Crypto, ETF, MMO
+7| lựa mua ấm điện
+8| hoc firebase, firebase cho WorkWise
+9| tổng hợp tài liệu
+10| Make Skull edit
+11| Làm video bằng LLM
+12| n8n va ai agent
+13| shopify -> shopee
+14| affliate -> dropship
+15| DONG TIEN
+16| dropship, affiliate với shopee, tiktok sử dụng n8n và genlogin
+17| Chọn ý tưởng, NCKH
+18| Dropship/affliliate CN
 19| airdrop
 20| black MMO
 21| MMO
@@ -29,7 +29,7 @@
 29| tính kế hoạch CAMERA
 30| tính kế hoạch học SKILLS thêm
 31| tính kế hoạch học AUTO, IOT
-32| tính kế hoạch học TOEIC, TADV
+32| tính kế hoạch học IETLS
 33| tính kế hoạch học CLASS
 34| tìm cách tạo dòng tiền
 35| tìm lỗ hổng affiliate
