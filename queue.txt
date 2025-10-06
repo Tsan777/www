@@ -1,74 +1,75 @@
-1| Kênh FOR NotebookLLM
-2| IUHUB
-3| MEMRAP + AI + CAMERA
-4| WorkWise tu tiên bản app, webapp
-5| PU, PL, SQ, SU, LƯNG, EO, THIỀN
-6| CK, Forex, Crypto, ETF, MMO
-7| lựa mua ấm điện
-8| hoc firebase, firebase cho WorkWise
-9| tổng hợp tài liệu
-10| Make Skull edit
-11| Làm video bằng LLM
-12| n8n va ai agent
-13| shopify -> shopee
-14| affliate -> dropship
-15| DONG TIEN
-16| dropship, affiliate với shopee, tiktok sử dụng n8n và genlogin
-17| Chọn ý tưởng, NCKH
-18| Dropship/affliliate CN
-19| airdrop
-20| black MMO
-21| MMO
-22| tải thử react native và build app thử
-23| soạn tkb
-24| Cursor AI
-25| gpt móng chân
-26| tính kế hoạch tương lai, hướng đi các năm
-27| tính kế hoạch MONEY, PROJECT
-28| tính kế hoạch GYM, sinh hoạt
-29| tính kế hoạch CAMERA
-30| tính kế hoạch học SKILLS thêm
-31| tính kế hoạch học AUTO, IOT
-32| tính kế hoạch học IETLS
-33| tính kế hoạch học CLASS
-34| tìm cách tạo dòng tiền
-35| tìm lỗ hổng affiliate
-36| affilate cho các đồ mặt hàng ở HCM
-37| cách làm một kênh viral và nhiều người coi
-38| xây kênh tiktok?
-39| cách đăng lại các video lên kênh
-40| CrashCourse
-41| Lên kế hoạch học tập
-42| Lên kế hoạch kiếm tiền
-43| Lên kế hoạch năm 1 và 3 năm còn lại
-44| Set up camera cho thành
-45| Soạn lịch gym cho ba
-46| soạn đề ôn cho thành
-47| Search và hiểu về các khái niệm Điện tử, Trade
-48| chọn nguồn học cho chuyên ngành
-49| Chọn nguồn ôn tiếng anh đầu vào, IELTS
-50| chọn nguồn học cho đại cương
-51| tạo lộ trình
-52| tạo kế hoạch học tập đại cương, chuyên ngành
-53| Chọn khóa học cho ngành Auto
-54| các từ tiếng anh ngành
-55| các thuật ngữ trong ngành
-56| Hỏi gpt về ba, mình, nhà
-57| N8n
-58| Cách nhân lên tài sản
-59| học chơi cổ phiếu, trái phiếu, crypto, vàng online
-60| cài phim haikyuu
-61| Search Chinese Facebook
-62| Chinese->roblox->MMO
-63| Hỏi về các lỗ hỏng củacacs app shopee
-64| Học nhanh khóa WEB
-65| Nội Quán
-66| học xong sách 20 ielts online
-67| nhìn tương lai dựa vào trung quốc
-68| coi baki
-69| thuộc 16 topic CN
-70| cách livestream tiktok
-71| quỷ cốc tử kinh
-72| đạo đức kinh
-73| Xe robot di động
-74| Học Figma
+1| Firebase studio
+2| Kênh FOR NotebookLLM
+3| IUHUB
+4| MEMRAP + AI + CAMERA
+5| WorkWise tu tiên bản app, webapp
+6| PU, PL, SQ, SU, LƯNG, EO, THIỀN
+7| CK, Forex, Crypto, ETF, MMO
+8| lựa mua ấm điện
+9| hoc firebase, firebase cho WorkWise
+10| tổng hợp tài liệu
+11| Make Skull edit
+12| Làm video bằng LLM
+13| n8n va ai agent
+14| shopify -> shopee
+15| affliate -> dropship
+16| DONG TIEN
+17| dropship, affiliate với shopee, tiktok sử dụng n8n và genlogin
+18| Chọn ý tưởng, NCKH
+19| Dropship/affliliate CN
+20| airdrop
+21| black MMO
+22| MMO
+23| tải thử react native và build app thử
+24| soạn tkb
+25| Cursor AI
+26| gpt móng chân
+27| tính kế hoạch tương lai, hướng đi các năm
+28| tính kế hoạch MONEY, PROJECT
+29| tính kế hoạch GYM, sinh hoạt
+30| tính kế hoạch CAMERA
+31| tính kế hoạch học SKILLS thêm
+32| tính kế hoạch học AUTO, IOT
+33| tính kế hoạch học IETLS
+34| tính kế hoạch học CLASS
+35| tìm cách tạo dòng tiền
+36| tìm lỗ hổng affiliate
+37| affilate cho các đồ mặt hàng ở HCM
+38| cách làm một kênh viral và nhiều người coi
+39| xây kênh tiktok?
+40| cách đăng lại các video lên kênh
+41| CrashCourse
+42| Lên kế hoạch học tập
+43| Lên kế hoạch kiếm tiền
+44| Lên kế hoạch năm 1 và 3 năm còn lại
+45| Set up camera cho thành
+46| Soạn lịch gym cho ba
+47| soạn đề ôn cho thành
+48| Search và hiểu về các khái niệm Điện tử, Trade
+49| chọn nguồn học cho chuyên ngành
+50| Chọn nguồn ôn tiếng anh đầu vào, IELTS
+51| chọn nguồn học cho đại cương
+52| tạo lộ trình
+53| tạo kế hoạch học tập đại cương, chuyên ngành
+54| Chọn khóa học cho ngành Auto
+55| các từ tiếng anh ngành
+56| các thuật ngữ trong ngành
+57| Hỏi gpt về ba, mình, nhà
+58| N8n
+59| Cách nhân lên tài sản
+60| học chơi cổ phiếu, trái phiếu, crypto, vàng online
+61| cài phim haikyuu
+62| Search Chinese Facebook
+63| Chinese->roblox->MMO
+64| Hỏi về các lỗ hỏng củacacs app shopee
+65| Học nhanh khóa WEB
+66| Nội Quán
+67| học xong sách 20 ielts online
+68| nhìn tương lai dựa vào trung quốc
+69| coi baki
+70| thuộc 16 topic CN
+71| cách livestream tiktok
+72| quỷ cốc tử kinh
+73| đạo đức kinh
+74| Xe robot di động
+75| Học Figma
