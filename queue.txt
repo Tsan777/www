@@ -1,81 +1,83 @@
-1| dọn dẹp ổ C bị đầy
-2| animaze
-3| tạo một chatbot livestream tiktok auto response
-4| Dọn Drive để các khóa học vào làm NOTEBOOKLLM
-5| Nếu được thì Firebase cho WorkWise
-6| Tạo lại WorkWise Bản WebAPP
-7| Tạo một list từ vựng TA B1,B2,C1 hoàn chỉnh
-8| Firebase studio
-9| Kênh FOR NotebookLLM
-10| IUHUB
-11| MEMRAP + AI + CAMERA
-12| WorkWise tu tiên bản app, webapp
-13| PU, PL, SQ, SU, LƯNG, EO, THIỀN
-14| CK, Forex, Crypto, ETF, MMO
-15| lựa mua ấm điện
-16| hoc firebase, firebase cho WorkWise
-17| tổng hợp tài liệu
-18| Make Skull edit
-19| Làm video bằng LLM
-20| n8n va ai agent
-21| shopify -> shopee
-22| affliate -> dropship
-23| DONG TIEN
-24| dropship, affiliate với shopee, tiktok sử dụng n8n và genlogin
-25| Chọn ý tưởng, NCKH
-26| Dropship/affliliate CN
-27| airdrop
-28| black MMO
-29| MMO
-30| tải thử react native và build app thử
-31| Cursor AI
-32| gpt móng chân
-33| tính kế hoạch tương lai, hướng đi các năm
-34| tính kế hoạch MONEY, PROJECT
-35| tính kế hoạch GYM, sinh hoạt
-36| tính kế hoạch CAMERA
-37| tính kế hoạch học SKILLS thêm
-38| tính kế hoạch học AUTO, IOT
-39| tính kế hoạch học IETLS
-40| tính kế hoạch học CLASS
-41| tìm cách tạo dòng tiền
-42| tìm lỗ hổng affiliate
-43| affilate cho các đồ mặt hàng ở HCM
-44| cách làm một kênh viral và nhiều người coi
-45| xây kênh tiktok?
-46| cách đăng lại các video lên kênh
-47| CrashCourse
-48| Lên kế hoạch học tập
-49| Lên kế hoạch kiếm tiền
-50| Lên kế hoạch năm 1 và 3 năm còn lại
-51| Set up camera cho thành
-52| Soạn lịch gym cho ba
-53| soạn đề ôn cho thành
-54| Search và hiểu về các khái niệm Điện tử, Trade
-55| chọn nguồn học cho chuyên ngành
-56| Chọn nguồn ôn tiếng anh đầu vào, IELTS
-57| chọn nguồn học cho đại cương
-58| tạo lộ trình
-59| tạo kế hoạch học tập đại cương, chuyên ngành
-60| Chọn khóa học cho ngành Auto
-61| các từ tiếng anh ngành
-62| các thuật ngữ trong ngành
-63| Hỏi gpt về ba, mình, nhà
-64| N8n
-65| Cách nhân lên tài sản
-66| học chơi cổ phiếu, trái phiếu, crypto, vàng online
-67| cài phim haikyuu
-68| Search Chinese Facebook
-69| Chinese->roblox->MMO
-70| Hỏi về các lỗ hỏng củacacs app shopee
-71| Học nhanh khóa WEB
-72| Nội Quán
-73| học xong sách 20 ielts online
-74| nhìn tương lai dựa vào trung quốc
-75| coi baki
-76| thuộc 16 topic CN
-77| cách livestream tiktok
-78| quỷ cốc tử kinh
-79| đạo đức kinh
-80| Xe robot di động
-81| Học Figma
+1| chuyển pycharm về VS code
+2| update drive, check virus
+3| dọn dẹp ổ C bị đầy
+4| animaze
+5| tạo một chatbot livestream tiktok auto response
+6| Dọn Drive để các khóa học vào làm NOTEBOOKLLM
+7| Nếu được thì Firebase cho WorkWise
+8| Tạo lại WorkWise Bản WebAPP
+9| Tạo một list từ vựng TA B1,B2,C1 hoàn chỉnh
+10| Firebase studio
+11| Kênh FOR NotebookLLM
+12| IUHUB
+13| MEMRAP + AI + CAMERA
+14| WorkWise tu tiên bản app, webapp
+15| PU, PL, SQ, SU, LƯNG, EO, THIỀN
+16| CK, Forex, Crypto, ETF, MMO
+17| lựa mua ấm điện
+18| hoc firebase, firebase cho WorkWise
+19| tổng hợp tài liệu
+20| Make Skull edit
+21| Làm video bằng LLM
+22| n8n va ai agent
+23| shopify -> shopee
+24| affliate -> dropship
+25| DONG TIEN
+26| dropship, affiliate với shopee, tiktok sử dụng n8n và genlogin
+27| Chọn ý tưởng, NCKH
+28| Dropship/affliliate CN
+29| airdrop
+30| black MMO
+31| MMO
+32| tải thử react native và build app thử
+33| Cursor AI
+34| gpt móng chân
+35| tính kế hoạch tương lai, hướng đi các năm
+36| tính kế hoạch MONEY, PROJECT
+37| tính kế hoạch GYM, sinh hoạt
+38| tính kế hoạch CAMERA
+39| tính kế hoạch học SKILLS thêm
+40| tính kế hoạch học AUTO, IOT
+41| tính kế hoạch học IETLS
+42| tính kế hoạch học CLASS
+43| tìm cách tạo dòng tiền
+44| tìm lỗ hổng affiliate
+45| affilate cho các đồ mặt hàng ở HCM
+46| cách làm một kênh viral và nhiều người coi
+47| xây kênh tiktok?
+48| cách đăng lại các video lên kênh
+49| CrashCourse
+50| Lên kế hoạch học tập
+51| Lên kế hoạch kiếm tiền
+52| Lên kế hoạch năm 1 và 3 năm còn lại
+53| Set up camera cho thành
+54| Soạn lịch gym cho ba
+55| soạn đề ôn cho thành
+56| Search và hiểu về các khái niệm Điện tử, Trade
+57| chọn nguồn học cho chuyên ngành
+58| Chọn nguồn ôn tiếng anh đầu vào, IELTS
+59| chọn nguồn học cho đại cương
+60| tạo lộ trình
+61| tạo kế hoạch học tập đại cương, chuyên ngành
+62| Chọn khóa học cho ngành Auto
+63| các từ tiếng anh ngành
+64| các thuật ngữ trong ngành
+65| Hỏi gpt về ba, mình, nhà
+66| N8n
+67| Cách nhân lên tài sản
+68| học chơi cổ phiếu, trái phiếu, crypto, vàng online
+69| cài phim haikyuu
+70| Search Chinese Facebook
+71| Chinese->roblox->MMO
+72| Hỏi về các lỗ hỏng củacacs app shopee
+73| Học nhanh khóa WEB
+74| Nội Quán
+75| học xong sách 20 ielts online
+76| nhìn tương lai dựa vào trung quốc
+77| coi baki
+78| thuộc 16 topic CN
+79| cách livestream tiktok
+80| quỷ cốc tử kinh
+81| đạo đức kinh
+82| Xe robot di động
+83| Học Figma
