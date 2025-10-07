@@ -12,26 +12,26 @@
 1 Lấy IELTS 7 chấm,0,Sách 20 day
 1 Lấy IELTS 7 chấm,0,Tiếng Anh đầu vào và Ai eo
 1 Lấy IELTS 7 chấm,0,example_task
-2 Kiếm nhiều tiền từ MMO,0,Digital Marketing udemy course
-2 Kiếm nhiều tiền từ MMO,0,Học dùng AI, tool automation
-2 Kiếm nhiều tiền từ MMO,0,Học khái niệm trước, đầu tư vốn nhỏ
-2 Kiếm nhiều tiền từ MMO,0,Học livestream tiktok...
-2 Kiếm nhiều tiền từ MMO,0,Shopee 15h udemy course
-2 Kiếm nhiều tiền từ MMO,0,Tạo các dòng tiền, hế thống tự động
-2 Kiếm nhiều tiền từ MMO,0,example_task
-3 Lấy Học bổng,0,Tin học cơ bản
-3 Lấy Học bổng,0,example_task
-3 Lấy Học bổng,0,toán cao cấp
-4 Học Hết kiến thức Ngành Auto,0,example_task
-5 Code web, app, game, IOT project khởi nghiệp,0,1 Học Code Web nhanh crash course
-5 Code web, app, game, IOT project khởi nghiệp,0,2 Học Code APP react native
-5 Code web, app, game, IOT project khởi nghiệp,0,3 Học roblox
-5 Code web, app, game, IOT project khởi nghiệp,0,4 Học IOT, Điện tử
-5 Code web, app, game, IOT project khởi nghiệp,0,5 Học Thiết kế SolidCad, Figma
-5 Code web, app, game, IOT project khởi nghiệp,0,Chạy Quảng Cáo Google Adsense
-5 Code web, app, game, IOT project khởi nghiệp,0,example_task
-6 Biết Thêm Ngoại Ngữ Chinese có HSK,0,example_task
-7 Biết Thêm Ngoại Ngữ Japanese có JLPT,0,example_task
+2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Digital Marketing udemy course
+2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Học dùng AI, tool automation
+2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Học khái niệm trước, đầu tư vốn nhỏ
+2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Học livestream tiktok...
+2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Shopee 15h udemy course
+2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Tạo các dòng tiền, hế thống tự động
+2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,example_task
+3 Học Hết kiến thức Ngành Auto,0,Chứng chỉ Tin học cơ bản
+3 Học Hết kiến thức Ngành Auto,0,Toán cao cấp
+3 Học Hết kiến thức Ngành Auto,0,Vật lý đại cương?
+3 Học Hết kiến thức Ngành Auto,0,example_task
+4 Code web, app, game, IOT project khởi nghiệp,0,1 Học Code Web nhanh crash course
+4 Code web, app, game, IOT project khởi nghiệp,0,2 Học Code APP react native
+4 Code web, app, game, IOT project khởi nghiệp,0,3 Học roblox
+4 Code web, app, game, IOT project khởi nghiệp,0,4 Học IOT, Điện tử
+4 Code web, app, game, IOT project khởi nghiệp,0,5 Học Thiết kế SolidCad, Figma
+4 Code web, app, game, IOT project khởi nghiệp,0,Chạy Quảng Cáo Google Adsense
+4 Code web, app, game, IOT project khởi nghiệp,0,example_task
+5 Biết Thêm Ngoại Ngữ Chinese có HSK,0,example_task
+6 Biết Thêm Ngoại Ngữ Japanese có JLPT,0,example_task
 AI,0,42 h ML and DL UDEMY Python and R
 AI,0,AI VÀ DS DŨNG LLT
 AI,0,ML VÀ DS 90H udemy course

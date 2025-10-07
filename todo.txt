@@ -1,8 +1,16 @@
 morning:
-học
+Tập Thể thao Calisthenics
+Học Ngoại Ngữ Anh Trung Nhật (ưu tiên lớp)
+Hôm qua hoàn thành ít nhất 2-3 việc
 
 afternoon:
-học
+Học Kiến thức chuyên ngành
+Lấy nước ở trường học
 
 evening:
-Ngồi Thiền
+Làm MMO
+Học Kĩ Năng, Khởi nghiệp, Làm dự án
+Giặt Đồ, Phơi Đồ, Vệ sinh nhà
+Tổng kết ngày, lên kế hoạch ngày mai
+Ngồi thiền
+Ngủ trước 12 đến 1 giờ
