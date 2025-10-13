@@ -10,7 +10,6 @@
 1 Lấy IELTS 7 chấm,0,1500,800 B2 vocab
 1 Lấy IELTS 7 chấm,0,Course IELTS to band 7
 1 Lấy IELTS 7 chấm,0,Sách 20 day
-1 Lấy IELTS 7 chấm,0,Tiếng Anh đầu vào và Ai eo
 1 Lấy IELTS 7 chấm,0,example_task
 2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Digital Marketing udemy course
 2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Học dùng AI, tool automation
@@ -30,7 +29,9 @@
 4 Code web, app, game, IOT project khởi nghiệp,0,5 Học Thiết kế SolidCad, Figma
 4 Code web, app, game, IOT project khởi nghiệp,0,Chạy Quảng Cáo Google Adsense
 4 Code web, app, game, IOT project khởi nghiệp,0,example_task
+5 Biết Thêm Ngoại Ngữ Chinese có HSK,0,Doulingo
 5 Biết Thêm Ngoại Ngữ Chinese có HSK,0,example_task
+6 Biết Thêm Ngoại Ngữ Japanese có JLPT,0,Doulingo JP
 6 Biết Thêm Ngoại Ngữ Japanese có JLPT,0,example_task
 AI,0,42 h ML and DL UDEMY Python and R
 AI,0,AI VÀ DS DŨNG LLT
