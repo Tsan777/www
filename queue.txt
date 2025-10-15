@@ -1,91 +1,92 @@
-1| Chuyển sao cho workwise,memrap offline
-2| Tạo workwise, memrap cho kiếm tiền và Khoa học kiz thuật
-3| Tìm nguồn, tài liệu làm video notebook LLM
-4| mindmap to workwise
-5| hoàn chỉnh mindmap
-6| Học xong 1500-800
-7| USB
-8| biến video youtube thành tiktok
-9| Tải srt của courselàm NOtebook LLM
-10| Tìm tài liệu THPT làm NOTEBOOK LLM
-11| tạo prompt chat với AI ielts Speaking topic
-12| trò chuyện cùng AI, IELTS, HSK1
-13| tạo một chatbot livestream tiktok auto response
-14| Dọn Drive để các khóa học vào làm NOTEBOOKLLM
-15| Nếu được thì Firebase cho WorkWise
-16| Tạo lại WorkWise Bản WebAPP
-17| Tạo một list từ vựng TA B1,B2,C1 hoàn chỉnh
-18| Firebase studio
-19| Kênh FOR NotebookLLM
-20| IUHUB
-21| MEMRAP + AI + CAMERA
-22| WorkWise tu tiên bản app, webapp
-23| PU, PL, SQ, SU, LƯNG, EO, THIỀN
-24| CK, Forex, Crypto, ETF, MMO
-25| lựa mua ấm điện
-26| hoc firebase, firebase cho WorkWise
-27| tổng hợp tài liệu
-28| Make Skull edit
-29| Làm video bằng LLM
-30| tính kế hoạch học CLASS
-31| n8n va ai agent
-32| tính kế hoạch học IETLS
-33| shopify -> shopee
-34| affliate -> dropship
-35| DONG TIEN
-36| dropship, affiliate với shopee, tiktok sử dụng n8n và genlogin
-37| Chọn ý tưởng, NCKH
-38| Dropship/affliliate CN
-39| airdrop
-40| black MMO
-41| MMO
-42| tải thử react native và build app thử
-43| Cursor AI
-44| gpt móng chân
-45| tính kế hoạch tương lai, hướng đi các năm
-46| tính kế hoạch MONEY, PROJECT
-47| tính kế hoạch GYM, sinh hoạt
-48| tính kế hoạch CAMERA
-49| tính kế hoạch học SKILLS thêm
-50| tính kế hoạch học AUTO, IOT
-51| tìm cách tạo dòng tiền
-52| tìm lỗ hổng affiliate
-53| affilate cho các đồ mặt hàng ở HCM
-54| cách làm một kênh viral và nhiều người coi
-55| xây kênh tiktok?
-56| cách đăng lại các video lên kênh
-57| CrashCourse
-58| Lên kế hoạch học tập
-59| Lên kế hoạch kiếm tiền
-60| Lên kế hoạch năm 1 và 3 năm còn lại
-61| Set up camera cho thành
-62| Soạn lịch gym cho ba
-63| soạn đề ôn cho thành
-64| Search và hiểu về các khái niệm Điện tử, Trade
-65| chọn nguồn học cho chuyên ngành
-66| Chọn nguồn ôn tiếng anh đầu vào, IELTS
-67| chọn nguồn học cho đại cương
-68| tạo lộ trình
-69| tạo kế hoạch học tập đại cương, chuyên ngành
-70| Chọn khóa học cho ngành Auto
-71| các từ tiếng anh ngành
-72| các thuật ngữ trong ngành
-73| Hỏi gpt về ba, mình, nhà
-74| N8n
-75| Cách nhân lên tài sản
-76| học chơi cổ phiếu, trái phiếu, crypto, vàng online
-77| cài phim haikyuu
-78| Search Chinese Facebook
-79| Chinese->roblox->MMO
-80| Hỏi về các lỗ hỏng củacacs app shopee
-81| Học nhanh khóa WEB
-82| Nội Quán
-83| học xong sách 20 ielts online
-84| nhìn tương lai dựa vào trung quốc
-85| coi baki
-86| thuộc 16 topic CN
-87| cách livestream tiktok
-88| quỷ cốc tử kinh
-89| đạo đức kinh
-90| Xe robot di động
-91| Học Figma
+1| edit list video C
+2| Chuyển sao cho workwise,memrap offline
+3| Tạo workwise, memrap cho kiếm tiền và Khoa học kiz thuật
+4| Tìm nguồn, tài liệu làm video notebook LLM
+5| mindmap to workwise
+6| hoàn chỉnh mindmap
+7| Học xong 1500-800
+8| USB
+9| biến video youtube thành tiktok
+10| Tải srt của courselàm NOtebook LLM
+11| Tìm tài liệu THPT làm NOTEBOOK LLM
+12| tạo prompt chat với AI ielts Speaking topic
+13| trò chuyện cùng AI, IELTS, HSK1
+14| tạo một chatbot livestream tiktok auto response
+15| Dọn Drive để các khóa học vào làm NOTEBOOKLLM
+16| Nếu được thì Firebase cho WorkWise
+17| Tạo lại WorkWise Bản WebAPP
+18| Tạo một list từ vựng TA B1,B2,C1 hoàn chỉnh
+19| Firebase studio
+20| Kênh FOR NotebookLLM
+21| IUHUB
+22| MEMRAP + AI + CAMERA
+23| WorkWise tu tiên bản app, webapp
+24| PU, PL, SQ, SU, LƯNG, EO, THIỀN
+25| CK, Forex, Crypto, ETF, MMO
+26| lựa mua ấm điện
+27| hoc firebase, firebase cho WorkWise
+28| tổng hợp tài liệu
+29| Make Skull edit
+30| Làm video bằng LLM
+31| tính kế hoạch học CLASS
+32| n8n va ai agent
+33| tính kế hoạch học IETLS
+34| shopify -> shopee
+35| affliate -> dropship
+36| DONG TIEN
+37| dropship, affiliate với shopee, tiktok sử dụng n8n và genlogin
+38| Chọn ý tưởng, NCKH
+39| Dropship/affliliate CN
+40| airdrop
+41| black MMO
+42| MMO
+43| tải thử react native và build app thử
+44| Cursor AI
+45| gpt móng chân
+46| tính kế hoạch tương lai, hướng đi các năm
+47| tính kế hoạch MONEY, PROJECT
+48| tính kế hoạch GYM, sinh hoạt
+49| tính kế hoạch CAMERA
+50| tính kế hoạch học SKILLS thêm
+51| tính kế hoạch học AUTO, IOT
+52| tìm cách tạo dòng tiền
+53| tìm lỗ hổng affiliate
+54| affilate cho các đồ mặt hàng ở HCM
+55| cách làm một kênh viral và nhiều người coi
+56| xây kênh tiktok?
+57| cách đăng lại các video lên kênh
+58| CrashCourse
+59| Lên kế hoạch học tập
+60| Lên kế hoạch kiếm tiền
+61| Lên kế hoạch năm 1 và 3 năm còn lại
+62| Set up camera cho thành
+63| Soạn lịch gym cho ba
+64| soạn đề ôn cho thành
+65| Search và hiểu về các khái niệm Điện tử, Trade
+66| chọn nguồn học cho chuyên ngành
+67| Chọn nguồn ôn tiếng anh đầu vào, IELTS
+68| chọn nguồn học cho đại cương
+69| tạo lộ trình
+70| tạo kế hoạch học tập đại cương, chuyên ngành
+71| Chọn khóa học cho ngành Auto
+72| các từ tiếng anh ngành
+73| các thuật ngữ trong ngành
+74| Hỏi gpt về ba, mình, nhà
+75| N8n
+76| Cách nhân lên tài sản
+77| học chơi cổ phiếu, trái phiếu, crypto, vàng online
+78| cài phim haikyuu
+79| Search Chinese Facebook
+80| Chinese->roblox->MMO
+81| Hỏi về các lỗ hỏng củacacs app shopee
+82| Học nhanh khóa WEB
+83| Nội Quán
+84| học xong sách 20 ielts online
+85| nhìn tương lai dựa vào trung quốc
+86| coi baki
+87| thuộc 16 topic CN
+88| cách livestream tiktok
+89| quỷ cốc tử kinh
+90| đạo đức kinh
+91| Xe robot di động
+92| Học Figma
