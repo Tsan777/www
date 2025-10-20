@@ -4,6 +4,7 @@
 0.None,0,2thẻ nhớ
 0.None,0,cây lau nhà
 0.None,0,gói
+0.None,0,lấy iron man
 0.None,0,lấy ly
 0.None,0,lấy lọc trà bình nước
 0.None,0,lấy đồ sử điện tử
