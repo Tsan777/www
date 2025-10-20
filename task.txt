@@ -1,61 +1,62 @@
-0.None,0,1 ấm điện
-0.None,0,2máy bắt muỗi
-0.None,0,2thảm lau chân
+0.None,0,original task name
 0.None,0,2thẻ nhớ
+0.None,0,2thảm lau chân
 0.None,0,cây lau nhà
-0.None,0,gói
-0.None,0,lấy iron man
-0.None,0,lấy ly
+0.None,0,2máy bắt muỗi
 0.None,0,lấy lọc trà bình nước
+0.None,0,gói
+0.None,0,lấy ly
 0.None,0,lấy đồ sử điện tử
+0.None,0,1 ấm điện
+0.None,0,lấy iron man
+1 Lấy IELTS 7 chấm,0,example_task
 1 Lấy IELTS 7 chấm,0,1500,800 B2 vocab
 1 Lấy IELTS 7 chấm,0,Course IELTS to band 7
 1 Lấy IELTS 7 chấm,0,Sách 20 day
-1 Lấy IELTS 7 chấm,0,example_task
-2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Digital Marketing udemy course
-2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Học dùng AI, tool automation
-2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Học khái niệm trước, đầu tư vốn nhỏ
-2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Học livestream tiktok...
-2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Shopee 15h udemy course
-2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Tạo các dòng tiền, hế thống tự động
 2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,example_task
+2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Học dùng AI, tool automation
+2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Học livestream tiktok...
+2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Tạo các dòng tiền, hế thống tự động
+2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Học khái niệm trước, đầu tư vốn nhỏ
+2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Digital Marketing udemy course
+2 Kiếm nhiều tiền từ MMO, Xây dòng tiền,0,Shopee 15h udemy course
+3 Học Hết kiến thức Ngành Auto,0,example_task
 3 Học Hết kiến thức Ngành Auto,0,Chứng chỉ Tin học cơ bản
 3 Học Hết kiến thức Ngành Auto,0,Toán cao cấp
 3 Học Hết kiến thức Ngành Auto,0,Vật lý đại cương?
-3 Học Hết kiến thức Ngành Auto,0,example_task
+4 Code web, app, game, IOT project khởi nghiệp,0,example_task
 4 Code web, app, game, IOT project khởi nghiệp,0,1 Học Code Web nhanh crash course
 4 Code web, app, game, IOT project khởi nghiệp,0,2 Học Code APP react native
 4 Code web, app, game, IOT project khởi nghiệp,0,3 Học roblox
 4 Code web, app, game, IOT project khởi nghiệp,0,4 Học IOT, Điện tử
 4 Code web, app, game, IOT project khởi nghiệp,0,5 Học Thiết kế SolidCad, Figma
 4 Code web, app, game, IOT project khởi nghiệp,0,Chạy Quảng Cáo Google Adsense
-4 Code web, app, game, IOT project khởi nghiệp,0,example_task
-5 Biết Thêm Ngoại Ngữ Chinese có HSK,0,Doulingo
 5 Biết Thêm Ngoại Ngữ Chinese có HSK,0,example_task
-6 Biết Thêm Ngoại Ngữ Japanese có JLPT,0,Doulingo JP
+5 Biết Thêm Ngoại Ngữ Chinese có HSK,0,Doulingo
 6 Biết Thêm Ngoại Ngữ Japanese có JLPT,0,example_task
+6 Biết Thêm Ngoại Ngữ Japanese có JLPT,0,Doulingo JP
+AI,0,example_task
 AI,0,42 h ML and DL UDEMY Python and R
 AI,0,AI VÀ DS DŨNG LLT
 AI,0,ML VÀ DS 90H udemy course
-AI,0,example_task
 AI,0,web machine learning cơ bản
-App,0,CS50 APP MOBILE
-App,0,REACT NATIVE Udemy+docs
 App,0,example_task
-Game,0,CS50 GAME
-Game,0,Unity
+App,0,REACT NATIVE Udemy+docs
+App,0,CS50 APP MOBILE
 Game,0,example_task
+Game,0,Unity
+Game,0,CS50 GAME
+IT,0,example_task
+IT,0,Hacksplanning
+IT,0,USACO GUIDE
+IT,0,Kali linux UDEMY
+IT,0,W3school cyper security
 IT,0,CS50X
 IT,0,DSA 28 tech
-IT,0,Hacksplanning
-IT,0,Kali linux UDEMY
 IT,0,Python/C/C++ 28 tech
-IT,0,USACO GUIDE
-IT,0,W3school cyper security
-IT,0,example_task
-WEB,0,CS50 WEB
-WEB,0,FIGMA
+WEB,0,example_task
 WEB,0,Front end, Backend 28tech
+WEB,0,CS50 WEB
 WEB,0,W3SCHOOL WEB
 WEB,0,WEB DLLT
-WEB,0,example_task
+WEB,0,FIGMA

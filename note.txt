@@ -1,70 +1,69 @@
 TOPIC: AI
 Ai chat bot dùng và nghe quen voice của mình
 TOPIC: App
-App MEMRAP
-App WorkWise + phần mềm WorkWise
-App tu tiên kiểu hệ thống nhiệm vụ
-Làm app gym
-Làm app tính tiền hụi
-Nhân bản con người
 Phần mềm nút gọi khẩn cấp
 Quản lý tài chính
+Nhân bản con người
+Làm app gym
 Thư ký AI
+Làm app tính tiền hụi
+App MEMRAP
 app giải quyết nhu cầu cung-cầu
+App WorkWise + phần mềm WorkWise
+App tu tiên kiểu hệ thống nhiệm vụ
 TOPIC: Game
-App game chơi cờ
-Game gián điệp monster đuổi bắt
-Game giống liên quaN 3d + ff
-Tu tiên tu luyện
-cờ vây giống chess.com
-game fisher king
-game giống bang bang tank actack
-game kiếm hiệp
 game như chop.io
+cờ vây giống chess.com
+game: Đảo rồng
+pokemon go có  di chuyển bắt boss solo đánh nhau
 game như gameshoww
+game đánh bài
+Tu tiên tu luyện
+Game gián điệp monster đuổi bắt
+game giống bang bang tank actack
+Game giống liên quaN 3d + ff
+game kiếm hiệp
+App game chơi cờ
+game fisher king
+grow a muscle
+gow a house
 game nuôi, lai tạo động vật chó
 game trên 24h
-game đánh bài
-game: Đảo rồng
-gow a house
-grow a muscle
-pokemon go có  di chuyển bắt boss solo đánh nhau
 TOPIC: IOT
-Robot Camera di động
-Thiết bị nhận diện cảnh báo trộm kêu tiếng
-hệ thống công việc và thưởng cho gia đình
 tai nghe dịch ngôn ngữ
+Robot Camera di động
+hệ thống công việc và thưởng cho gia đình
+Thiết bị nhận diện cảnh báo trộm kêu tiếng
 TOPIC: Social Media
-Dạy về thpt ctm
-Fake live football, chanh ko chua tiktok
-Làm kênh về vietsub các truyện
-TIKTOK fake football live
-YOUTUBE:   TRUYỆN TIẾNG ANH SONG NGỮ
 kênh tiktok về sáng tạo hay
+YOUTUBE:   TRUYỆN TIẾNG ANH SONG NGỮ
+Dạy về thpt ctm
 live stream game roblox tiktok
+Làm kênh về vietsub các truyện
+Fake live football, chanh ko chua tiktok
+TIKTOK fake football live
 TOPIC: Start Up
+làm phim chủ tích hcm 3D
 Cửa hàng auto tự động hóa
 Quán cafe đồ chơi điều khiển đá bóng thể thao...
-làm phim chủ tích hcm 3D
 TOPIC: Web App
+Personal AI Gym Trainer
 A web dạy thêm cho ba
+Đấu trường kiến thức học tập Solo PK
+Web bán hàng tự chọn dành cho doanh nghiệp đăng ký
+Web bán hàng second hand như shopee
+web tóm tắt và dạy mọi thứ
+TRUYỆN TIẾNG ANH SONG NGỮ
+web tuthub bản việt
+web bán khóa học, thanh toán, chứa link
+guqin online play
+cmd gpt
+Web tìm kiếm course hay
 App đọc truyện đa ngữ, truyện trẻ em
 Jarvis
-Làm app gym
-Personal AI Gym Trainer
-TRUYỆN TIẾNG ANH SONG NGỮ
-Web bán hàng second hand như shopee
-Web bán hàng tự chọn dành cho doanh nghiệp đăng ký
 Web dành cho trường, trường đăng ký để tạo ra một web học tập, web trả về một web khác có tên là tên trường, web có khản năng thi và kiểm tra riêng, có thể tự tạo ra các các kì kiểm tra, các kì thi nhỏ, các bài tập, có thể quản lý lớp cho gvcn, có thể
-Web tìm kiếm course hay
-cmd gpt
-dịch và đọc phụ đề cho microsoft edge
-guqin online play
 tìm nhà thuê trọ cho hs,sv
-tạo chatbot, voicebot giao tiếp rèn luyện IELTS theo chủ đề
-web bán khóa học, thanh toán, chứa link
 web lưu video , ảnh kỉ niệm gia đình
-web tuthub bản việt
-web tóm tắt và dạy mọi thứ
-Đấu trường kiến thức học tập Solo PK
-
+tạo chatbot, voicebot giao tiếp rèn luyện IELTS theo chủ đề
+Làm app gym
+dịch và đọc phụ đề cho microsoft edge

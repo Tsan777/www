@@ -1,8 +1,8 @@
-1| Tạo workwise,memrap offline
-2| Tạo workwise, memrap cho kiếm tiền và Khoa học kiz thuật
-3| Tìm nguồn, tài liệu làm video notebook LLM
-4| mindmap to workwise
-5| hoàn chỉnh mindmap
+1| list các topic asmr, hay để làm short LLM
+2| Tạo workwise,memrap offline
+3| Tạo workwise, memrap cho kiếm tiền và Khoa học kiz thuật
+4| Tìm nguồn, tài liệu làm video notebook LLM
+5| mindmap to workwise
 6| Học xong 1500-800
 7| USB
 8| Tải srt của courselàm NOtebook LLM
