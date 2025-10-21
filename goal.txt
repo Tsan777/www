@@ -1,11 +1,12 @@
-1 Lấy IELTS 7 chấm
-2 Kiếm nhiều tiền từ MMO, Xây dòng tiền
+0 Khác
+1 Học IELTS HSK JLPT
+1 IELTS HSK JLPT
+2 MMO, Xây dòng tiền
 3 Học Hết kiến thức Ngành Auto
-4 Code web, app, game, IOT project khởi nghiệp
-5 Biết Thêm Ngoại Ngữ Chinese có HSK
-6 Biết Thêm Ngoại Ngữ Japanese có JLPT
+4 Code web app game IOT project khởi nghiệp
 AI
 App
 Game
+IELTS 7
 IT
 WEB
