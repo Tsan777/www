@@ -1,744 +1,382 @@
-// DOM Elements
-const taskInput = document.getElementById('task-name');
-const topicInput = document.getElementById('topic');
-const addTaskBtn = document.getElementById('add-task');
-const taskList = document.getElementById('task-list');
-// Load tasks from LocalStorage on page load
+// script.js - cleaned and DOM-safe
 
-// Request notification permission
+// Notification setup (runs immediately)
 if (Notification.permission === 'default') {
-    Notification.requestPermission().then((permission) => {
-      if (permission === 'granted') {
-        console.log('Notification permission granted.');
-      } else {
-        console.error('Notification permission denied.');
-      }
+    Notification.requestPermission().then(permission => {
+      if (permission === 'granted') console.log('Notification permission granted.');
     });
   }
-  
-  // Notify main task
   function sendNotification(task) {
     if ('serviceWorker' in navigator && Notification.permission === 'granted') {
-      navigator.serviceWorker.ready.then((registration) => {
+      navigator.serviceWorker.ready.then(registration => {
         registration.showNotification('Nhiệm Vụ Tiếp Theo:', {
           body: `Tên: ${task}\n`,
-          icon: './icon.png',
+          icon: './icon.png'
         });
       });
     }
   }
-  
-  // Check every 25 seconds for main task notification
+  // check every 120s for main task
   setInterval(() => {
     const tasks = JSON.parse(localStorage.getItem('tasks')) || [];
-    const mainTask = tasks.find((task) => task.isMainTask);
+    const mainTask = tasks.find(t => t.isMainTask);
+    if (mainTask) sendNotification(mainTask.name);
+  }, 120000);
   
-    if (mainTask) {
-      sendNotification(mainTask.name);
-    }
-  }, 120000); //25 giây = 25 000 ms
+  // All DOM wiring inside DOMContentLoaded
+  document.addEventListener('DOMContentLoaded', () => {
+    // --- Elements ---
+    const todoInput = document.getElementById('todo-name');
+    const timeSelect = document.getElementById('time');
+    const addTodoBtn = document.getElementById('add-todo');
+    const morningTodoList = document.getElementById('morning-todo-list');
+    const afternoonTodoList = document.getElementById('afternoon-todo-list');
+    const eveningTodoList = document.getElementById('evening-todo-list');
   
-// Lấy các phần tử DOM
-const todoInput = document.getElementById('todo-name');
-const timeSelect = document.getElementById('time');
-const addTodoBtn = document.getElementById('add-todo');
-const morningTodoList = document.getElementById('morning-todo-list');
-const afternoonTodoList = document.getElementById('afternoon-todo-list');
-const eveningTodoList = document.getElementById('evening-todo-list');
-
-// Tải danh sách Todo từ LocalStorage khi trang được tải
-document.addEventListener('DOMContentLoaded', loadTodos);
-
-// Hàm tải và hiển thị Todo
-function loadTodos() {
-    const todos = JSON.parse(localStorage.getItem('todos')) || [];
-    renderTodos(todos);
-}
-
-// Hàm hiển thị Todo theo thời gian
-function renderTodos(todos) {
-    // Xóa danh sách hiện tại
-    morningTodoList.innerHTML = '';
-    afternoonTodoList.innerHTML = '';
-    eveningTodoList.innerHTML = '';
-
-    // Lặp qua từng Todo và phân loại
-    todos.forEach((todo, index) => {
-        const li = document.createElement('li');
-        li.innerHTML = `
-            <span>${todo.name}</span>
-            <button class="delete-btn" onclick="deleteTodo(${index})">Delete</button>
-        `;
-
-        // Thêm Todo vào danh sách tương ứng
-        if (todo.time === 'morning') {
-            morningTodoList.appendChild(li);
-        } else if (todo.time === 'afternoon') {
-            afternoonTodoList.appendChild(li);
-        } else if (todo.time === 'evening') {
-            eveningTodoList.appendChild(li);
-        }
-    });
-}
-
-// Hàm xóa Todo
-function deleteTodo(index) {
-    const todos = JSON.parse(localStorage.getItem('todos')) || [];
-    todos.splice(index, 1); // Xóa Todo tại vị trí index
-    localStorage.setItem('todos', JSON.stringify(todos)); // Cập nhật LocalStorage
-    renderTodos(todos); // Hiển thị lại danh sách
-}
-
-// Thêm sự kiện click cho nút "Add Todo"
-addTodoBtn.addEventListener('click', () => {
-    const todoName = todoInput.value.trim();
-    const todoTime = timeSelect.value;
-
-    // Kiểm tra nếu trường nhập không trống
-    if (todoName) {
-        const todos = JSON.parse(localStorage.getItem('todos')) || [];
-        todos.push({ name: todoName, time: todoTime }); // Thêm Todo mới
-        localStorage.setItem('todos', JSON.stringify(todos)); // Lưu vào LocalStorage
-        todoInput.value = ''; // Xóa giá trị trong ô input
-        renderTodos(todos); // Hiển thị lại danh sách
-    } else {
-        alert('Please enter a todo name!'); // Cảnh báo nếu không nhập
-    }
-});
-
-// Lấy các phần tử DOM
-const goalInput = document.getElementById('goal-name');
-const addGoalBtn = document.getElementById('add-goal');
-const goalList = document.getElementById('goal-list');
-
-// Thêm sự kiện click cho nút Add Goal
-addGoalBtn.addEventListener('click', () => {
-    const goalName = goalInput.value.trim();
-
-    // Kiểm tra nếu trường nhập không trống
-    if (goalName) {
-        const li = document.createElement('li');
-        li.innerHTML = `
-            <span>${goalName}</span>
-            <button onclick="deleteGoal(this)">Delete</button>
-        `;
-        goalList.appendChild(li);
-        goalInput.value = ''; // Xóa giá trị input sau khi thêm
-    } else {
-        alert('Please enter a goal!');
-    }
-});
-
-// Hàm xóa goal
-function deleteGoal(button) {
-    const li = button.parentElement;
-    li.remove();
-}
-
-// Lấy các phần tử DOM
-const queueInput = document.getElementById('queue-name');
-const addQueueBtn = document.getElementById('add-queue');
-const queueList = document.getElementById('queue-list');
-
-// Thêm sự kiện click cho nút Add Queue
-addQueueBtn.addEventListener('click', () => {
-    const queueName = queueInput.value.trim();
-
-    // Kiểm tra nếu trường nhập không trống
-    if (queueName) {
-        const li = document.createElement('li');
-        li.innerHTML = `
-            <span>${queueName}</span>
-            <button onclick="deleteQueue(this)">Delete</button>
-        `;
-        queueList.appendChild(li);
-        queueInput.value = ''; // Xóa giá trị input sau khi thêm
-    } else {
-        alert('Please enter a task for the queue!');
-    }
-});
-
-// Hàm xóa mục trong queue
-function deleteQueue(button) {
-    const li = button.parentElement;
-    li.remove();
-}
-
-function loadTodoFile(fileName) {
-    fetch(fileName)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('File not found: ' + fileName);
-            }
-            return response.text();
-        })
-        .then(data => {
-            // Phân loại nội dung thành các phần morning, afternoon, evening
-            const todoData = parseTodoFile(data);
-
-            // Gắn nội dung vào các danh sách
-            updateTodoList('morning-todo-list', todoData.morning);
-            updateTodoList('afternoon-todo-list', todoData.afternoon);
-            updateTodoList('evening-todo-list', todoData.evening);
-        })
-        .catch(error => {
-            console.error('Error loading todo file:', error);
-        });
-}
-
-function parseTodoFile(data) {
-    // Phân tích dữ liệu từ tệp
-    const lines = data.split('\n');
-    const todoData = { morning: [], afternoon: [], evening: [] };
-    let currentSection = null;
-
-    lines.forEach(line => {
-        if (line.startsWith('morning:')) {
-            currentSection = 'morning';
-        } else if (line.startsWith('afternoon:')) {
-            currentSection = 'afternoon';
-        } else if (line.startsWith('evening:')) {
-            currentSection = 'evening';
-        } else if (currentSection && line.trim()) {
-            todoData[currentSection].push(line.trim());
-        }
-    });
-
-    return todoData;
-}
-
-function updateTodoList(listId, items) {
-    const listElement = document.getElementById(listId);
-    if (!listElement) {
-        console.error(`Element with id "${listId}" not found.`);
-        return;
-    }
-
-    // Xóa nội dung cũ
-    listElement.innerHTML = '';
-
-    // Thêm các mục mới
-    items.forEach(item => {
-        const listItem = document.createElement('li');
-        listItem.textContent = item;
-        listElement.appendChild(listItem);
-    });
-}
-
-// Gọi hàm tải tệp khi trang được tải
-document.addEventListener('DOMContentLoaded', () => {
-    loadTodoFile('./todo.txt');
-});
-
-// Hàm load tasks từ file task.txt
-function loadTasksFromFile(fileName) {
-    fetch(fileName)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('File not found: ' + fileName);
-            }
-            return response.text();
-        })
-        .then(data => {
-            // Phân tích dữ liệu từ task.txt
-            const lines = data.trim().split('\n');
-            const tasks = lines.map(line => {
-                const [topic, main, name] = line.split(',');
-                return {
-                    topic: topic === '0.None' ? 'None' : topic,
-                    isMainTask: main === '1',
-                    name: name.trim()
-                };
-            });
-
-            // Lưu tasks vào localStorage và render
-            localStorage.setItem('tasks', JSON.stringify(tasks));
-            renderTasks(tasks);
-        })
-        .catch(error => {
-            console.error('Error loading tasks:', error);
-        });
-}
-
-// Hàm render tasks ra giao diện
-function renderTasks(tasks) {
+    const taskInput = document.getElementById('task-name');
+    const topicInput = document.getElementById('topic');
+    const addTaskBtn = document.getElementById('add-task');
     const taskList = document.getElementById('task-list');
-    taskList.innerHTML = ''; // Clear current tasks
-
-    // Group tasks by topic
-    const groupedTasks = groupTasksByTopic(tasks);
-
-    // Render mỗi group
-    Object.keys(groupedTasks).forEach(topic => {
-        const topicGroup = document.createElement('div');
-        topicGroup.classList.add('topic-group');
-
-        // Thêm tiêu đề topic
-        const topicTitle = document.createElement('h2');
-        topicTitle.textContent = topic;
-        topicGroup.appendChild(topicTitle);
-
-        // Render tasks trong topic
-        groupedTasks[topic].forEach(task => {
-            const li = document.createElement('li');
-            li.textContent = task.name;
-
-            // Tạo checkbox cho Main Task
-            const checkbox = document.createElement('input');
-            checkbox.type = 'checkbox';
-            checkbox.checked = task.isMainTask;
-
-            // Checkbox change event
-            checkbox.addEventListener('change', () => {
-                toggleMainTask(task, tasks);
-            });
-
-            li.prepend(checkbox);
-
-            // Nút delete
-            const delBtn = document.createElement('button');
-            delBtn.textContent = 'Delete';
-            delBtn.onclick = () => {
-                removeTask(task.name, task.topic);
-            };
-
-            li.appendChild(delBtn);
-            topicGroup.appendChild(li);
-        });
-
-        taskList.appendChild(topicGroup);
+  
+    const goalInput = document.getElementById('goal-name');
+    const addGoalBtn = document.getElementById('add-goal');
+    const goalList = document.getElementById('goal-list');
+  
+    const queueInput = document.getElementById('queue-name');
+    const addQueueBtn = document.getElementById('add-queue');
+    const queueList = document.getElementById('queue-list');
+  
+    const noteInput = document.getElementById('note-name');
+    const addNoteBtn = document.getElementById('add-note');
+    const noteList = document.getElementById('note-list');
+  
+    const diaryNameInput = document.getElementById('diary-name');
+    const diaryContentInput = document.getElementById('diary-content');
+    const addDiaryBtn = document.getElementById('add-diary');
+    const diaryList = document.getElementById('diary-list');
+  
+    // --- Todo ---
+    function loadTodosFromFile(fileName = './todo.txt') {
+      fetch(fileName)
+        .then(r => {
+          if (!r.ok) throw new Error('Không tìm thấy file: ' + fileName);
+          return r.text();
+        })
+        .then(data => {
+          const todos = [];
+          let currentTime = null;
+    
+          data.split('\n').forEach(line => {
+            line = line.trim();
+            if (!line) return;
+    
+            // Nhận dạng tiêu đề buổi
+            if (line.endsWith(':')) {
+              currentTime = line.replace(':', '').toLowerCase();
+            } else if (currentTime) {
+              todos.push({ name: line, time: currentTime });
+            }
+          });
+    
+          localStorage.setItem('todos', JSON.stringify(todos));
+          renderTodos(todos);
+        })
+        .catch(err => console.error(err));
+    }
+    
+    function renderTodos(todos) {
+      morningTodoList.innerHTML = '';
+      afternoonTodoList.innerHTML = '';
+      eveningTodoList.innerHTML = '';
+      todos.forEach((todo, index) => {
+        const li = document.createElement('li');
+        li.innerHTML = `<span>${escapeHtml(todo.name)}</span>
+          <button class="delete-btn" data-index="${index}">Delete</button>`;
+        if (todo.time === 'morning') morningTodoList.appendChild(li);
+        else if (todo.time === 'afternoon') afternoonTodoList.appendChild(li);
+        else eveningTodoList.appendChild(li);
+      });
+    }
+    function loadTodos() {
+      const todos = JSON.parse(localStorage.getItem('todos')) || [];
+      renderTodos(todos);
+    }
+    function deleteTodoAt(index) {
+      const todos = JSON.parse(localStorage.getItem('todos')) || [];
+      todos.splice(index, 1);
+      localStorage.setItem('todos', JSON.stringify(todos));
+      renderTodos(todos);
+    }
+    addTodoBtn && addTodoBtn.addEventListener('click', () => {
+      const name = todoInput.value.trim();
+      const time = timeSelect.value;
+      if (!name) return alert('Please enter a todo name!');
+      const todos = JSON.parse(localStorage.getItem('todos')) || [];
+      todos.push({ name, time });
+      localStorage.setItem('todos', JSON.stringify(todos));
+      todoInput.value = '';
+      renderTodos(todos);
     });
-}
-
-// Group tasks theo topic
-function groupTasksByTopic(tasks) {
-    return tasks.reduce((groups, task) => {
-        if (!groups[task.topic]) {
-            groups[task.topic] = [];
+    // delegate delete buttons for todos
+    [morningTodoList, afternoonTodoList, eveningTodoList].forEach(list => {
+      list && list.addEventListener('click', e => {
+        if (e.target.matches('.delete-btn')) {
+          const idx = parseInt(e.target.dataset.index, 10);
+          deleteTodoAt(idx);
         }
+      });
+    });
+  
+    // --- Tasks (from task.txt) ---
+    function groupTasksByTopic(tasks) {
+      return tasks.reduce((groups, task) => {
+        if (!groups[task.topic]) groups[task.topic] = [];
         groups[task.topic].push(task);
         return groups;
-    }, {});
-}
-
-// Toggle trạng thái Main Task
-function toggleMainTask(selectedTask, allTasks) {
-    allTasks.forEach(task => {
-        task.isMainTask = false;
-    });
-    selectedTask.isMainTask = true;
-    localStorage.setItem('tasks', JSON.stringify(allTasks));
-    renderTasks(allTasks);
-}
-
-// Xóa một task
-function removeTask(taskName, topic) {
-    let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
-    tasks = tasks.filter(task => !(task.name === taskName && task.topic === topic));
-    localStorage.setItem('tasks', JSON.stringify(tasks));
-    renderTasks(tasks);
-}
-
-// Load tasks khi trang được tải
-document.addEventListener('DOMContentLoaded', () => {
-    loadTasksFromFile('./task.txt');
-});
-
-// Hàm load goals từ file
-function loadGoalsFromFile(fileName) {
-    fetch(fileName)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('File not found: ' + fileName);
-            }
-            return response.text();
-        })
-        .then(data => {
-            // Phân tích dữ liệu từ file goal
-            const lines = data.trim().split('\n');
-            const goals = lines.map(line => line.trim());
-
-            // Lưu goals vào localStorage và render
-            localStorage.setItem('goals', JSON.stringify(goals));
-            renderGoals(goals);
-        })
-        .catch(error => {
-            console.error('Error loading goals:', error);
-        });
-}
-
-// Hàm render goals ra giao diện
-function renderGoals(goals) {
-    const goalList = document.getElementById('goal-list');
-    goalList.innerHTML = ''; // Xóa nội dung hiện tại
-
-    // Tạo danh sách các goals
-    goals.forEach(goal => {
-        const li = document.createElement('li');
-        li.textContent = goal;
-
-        // Nút delete
-        const delBtn = document.createElement('button');
-        delBtn.textContent = 'Delete';
-        delBtn.onclick = () => {
-            removeGoal(goal);
-        };
-
-        li.appendChild(delBtn);
-        goalList.appendChild(li);
-    });
-}
-
-// Hàm thêm goal mới
-function addGoal() {
-    const goalInput = document.getElementById('goal-name');
-    const newGoal = goalInput.value.trim();
-
-    if (newGoal) {
-        let goals = JSON.parse(localStorage.getItem('goals')) || [];
-        goals.push(newGoal);
-
-        localStorage.setItem('goals', JSON.stringify(goals));
-        renderGoals(goals);
-
-        // Reset input
-        goalInput.value = '';
+      }, {});
     }
-}
-
-// Hàm xóa một goal
-function removeGoal(goalToRemove) {
-    let goals = JSON.parse(localStorage.getItem('goals')) || [];
-    goals = goals.filter(goal => goal !== goalToRemove);
-
-    // Lưu lại goals và render
-    localStorage.setItem('goals', JSON.stringify(goals));
-    renderGoals(goals);
-}
-
-// Load goals khi trang được tải
-document.addEventListener('DOMContentLoaded', () => {
-    loadGoalsFromFile('./goal.txt'); // Đường dẫn tới file goal.txt
-
-    // Gắn sự kiện cho nút Add Goal
-    document.getElementById('add-goal').addEventListener('click', addGoal);
-});
-// Hàm load queues từ file
-
-
-// Hàm load thông tin từ file info.txt
-function loadInfoFromFile(fileName) {
-    fetch(fileName)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('File not found: ' + fileName);
-            }
-            return response.text();
-        })
-        .then(data => {
-            // Phân tích dữ liệu từ file info.txt
-            const info = parseInfoData(data);
-
-            // Cập nhật thông tin vào HTML
-            updateInfo(info);
-            // Cập nhật biểu đồ
-            updateCharts(info);
-        })
-        .catch(error => {
-            console.error('Error loading info:', error);
-        });
-}
-
-// Hàm phân tích dữ liệu info.txt
-function parseInfoData(data) {
-    const lines = data.trim().split('\n');
-    const info = {};
-
-    lines.forEach(line => {
-        const [key, value] = line.split(':').map(item => item.trim());
-        if (key === 'bar' || key === 'pie') {
-            info[key] = JSON.parse(value);
-        } else {
-            info[key] = value;
-        }
-    });
-
-    return info;
-}
-
-// Hàm cập nhật thông tin vào các label
-function updateInfo(info) {
-    document.querySelector('label[for="name"]').textContent = info.name;
-    document.querySelector('label[for="money"]').textContent = info.money;
-    document.querySelector('label[for="level"]').textContent = `Lv ${info.level}`;
-    
-    const progressBar = document.getElementById('current-progress');
-    progressBar.value = info.value * 100;
-}
-
-// Hàm cập nhật biểu đồ
-function updateCharts(info) {
-    // Biểu đồ cột
-    const barCtx = document.getElementById('barChart').getContext('2d');
-    new Chart(barCtx, {
-        type: 'bar',
-        data: {
-            labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-            datasets: [{
-                label: 'Tasks Completed',
-                data: info.bar,
-                backgroundColor: [
-                    'rgba(255, 99, 132, 0.6)',
-                    'rgba(54, 162, 235, 0.6)',
-                    'rgba(255, 206, 86, 0.6)',
-                    'rgba(75, 192, 192, 0.6)',
-                    'rgba(153, 102, 255, 0.6)',
-                    'rgba(255, 159, 64, 0.6)',
-                    'rgba(100, 200, 150, 0.6)'
-                ],
-                borderColor: [
-                    'rgba(255, 99, 132, 1)',
-                    'rgba(54, 162, 235, 1)',
-                    'rgba(255, 206, 86, 1)',
-                    'rgba(75, 192, 192, 1)',
-                    'rgba(153, 102, 255, 1)',
-                    'rgba(255, 159, 64, 1)',
-                    'rgba(100, 200, 150, 1)'
-                ],
-                borderWidth: 1
-            }]
-        },
-        options: {
-            responsive: true,
-            plugins: {
-                legend: {
-                    position: 'top',
-                },
-                title: {
-                    display: true,
-                    text: 'Tasks Completed During the Week'
-                }
-            },
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
-            }
-        }
-    });
-
-    // Biểu đồ tròn
-    const pieCtx = document.getElementById('pieChart').getContext('2d');
-    new Chart(pieCtx, {
-        type: 'pie',
-        data: {
-            labels: ['Queue', 'Todo', 'Task', 'Goal'] ,
-            datasets: [{
-                label: 'Daily Activities',
-                data: info.pie,
-                backgroundColor: [   'rgba(255, 165, 0, 0.6)', // Queue - màu cam
-        'rgba(255, 0, 0, 0.6)',   // Todo - màu đỏ
-        'rgba(255, 255, 0, 0.6)', // Task - màu vàng
-        'rgba(0, 0, 255, 0.6)'    // Goal - màu xanh dương 
-                ],
-                borderColor: [
-                    'rgba(255, 99, 132, 1)',
-                    'rgba(54, 162, 235, 1)',
-                    'rgba(255, 206, 86, 1)',
-                    'rgba(75, 192, 192, 1)'
-                ],
-                borderWidth: 1
-            }]
-        },
-        options: {
-            responsive: true,
-            plugins: {
-                legend: {
-                    position: 'top',
-                },
-                title: {
-                    display: true,
-                    text: 'Distribution of Daily Activities'
-                }
-            }
-        }
-    });
-}
-
-// Gắn sự kiện khi trang được tải
-document.addEventListener('DOMContentLoaded', () => {
-    loadInfoFromFile('./info.txt'); // Đường dẫn tới file info.txt
-});
-function loadQueuesFromFile(fileName) {
-    fetch(fileName)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('File not found: ' + fileName);
-            }
-            return response.text();
-        })
-        .then(data => {
-            // Phân tích dữ liệu từ file queue
-            const queues = data.trim().split('\n');
-
-            // Render danh sách queues
-            renderQueues(queues);
-        })
-        .catch(error => {
-            console.error('Error loading queues:', error);
-        });
-}
-
-// Hàm render queues ra giao diện
-function renderQueues(queues) {
-    const queueList = document.getElementById('queue-list');
-    queueList.innerHTML = ''; // Xóa nội dung hiện tại
-
-    // Tạo danh sách các queues
-    queues.forEach(queue => {
-        const li = document.createElement('li');
-        li.textContent = queue;
-
-        queueList.appendChild(li);
-    });
-}
-
-// Hàm thêm queue mới
-function addQueue() {
-    const queueInput = document.getElementById('queue-name');
-    const newQueue = queueInput.value.trim();
-
-    if (newQueue) {
-        const queueList = document.getElementById('queue-list');
-
-        // Thêm vào danh sách hiển thị
-        const li = document.createElement('li');
-        li.textContent = newQueue;
-        queueList.appendChild(li);
-
-        // Reset input
-        queueInput.value = '';
-    }
-}
-
-// Gắn sự kiện khi trang được tải
-document.addEventListener('DOMContentLoaded', () => {
-    loadQueuesFromFile('./queue.txt'); // Đường dẫn tới file queue.txt
-
-    // Gắn sự kiện cho nút Add Queue
-    document.getElementById('add-queue').addEventListener('click', addQueue);
-});
-
-
-
-document.addEventListener('DOMContentLoaded', function() {
-    const noteList = document.getElementById('note-list');
-    // Hàm đọc nội dung từ file note.txt
-    async function loadNotesFromFile() {
-      try {
-        const response = await fetch('note.txt');
-        const data = await response.text();
-        parseNotes(data);
-      } catch (error) {
-        console.error('Không thể tải file note.txt:', error);
-      }
-    }
-  
-    // Hàm phân tích nội dung và hiển thị
-    function parseNotes(data) {
-      const lines = data.split('\n'); // Chia nội dung thành từng dòng
-      let currentTopic = null; // Biến lưu topic hiện tại
-      let topicUl = null; // Biến lưu danh sách con cho topic
-  
-      lines.forEach(line => {
-        line = line.trim(); // Loại bỏ khoảng trắng dư thừa
-  
-        if (line.startsWith('TOPIC:')) {
-          // Nếu là một topic mới
-          currentTopic = line.replace('TOPIC:', '').trim();
-          const topicTitle = document.createElement('h3');
-          topicTitle.textContent = `Topic: ${currentTopic}`;
-          noteList.appendChild(topicTitle);
-  
-          // Tạo một danh sách mới cho các mục trong topic
-          topicUl = document.createElement('ul');
-          noteList.appendChild(topicUl);
-        } else if (line && topicUl) {
-          // Nếu là mục trong topic
+    function renderTasks(tasks) {
+      taskList.innerHTML = '';
+      const grouped = groupTasksByTopic(tasks);
+      Object.keys(grouped).forEach(topic => {
+        const wrapper = document.createElement('div');
+        wrapper.classList.add('topic-group');
+        const title = document.createElement('h2'); title.textContent = topic;
+        wrapper.appendChild(title);
+        grouped[topic].forEach(task => {
           const li = document.createElement('li');
-          li.textContent = line;
-          topicUl.appendChild(li);
+          li.innerHTML = `<label class="main-checkbox"><input type="checkbox"${task.isMainTask ? ' checked' : ''}><span>${escapeHtml(task.name)}</span></label>
+                          <button class="delete-task">Delete</button>`;
+          // checkbox: toggle main
+          li.querySelector('input[type="checkbox"]').addEventListener('change', () => {
+            toggleMainTask(task, tasks);
+          });
+          li.querySelector('.delete-task').addEventListener('click', () => {
+            removeTask(task.name, task.topic);
+          });
+          wrapper.appendChild(li);
+        });
+        taskList.appendChild(wrapper);
+      });
+    }
+    function toggleMainTask(selectedTask, allTasks) {
+      allTasks.forEach(t => t.isMainTask = false);
+      selectedTask.isMainTask = true;
+      localStorage.setItem('tasks', JSON.stringify(allTasks));
+      renderTasks(allTasks);
+    }
+    function removeTask(name, topic) {
+      let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+      tasks = tasks.filter(t => !(t.name === name && t.topic === topic));
+      localStorage.setItem('tasks', JSON.stringify(tasks));
+      renderTasks(tasks);
+    }
+    // load tasks from file
+    function loadTasksFromFile(fileName = './task.txt') {
+      fetch(fileName).then(r => {
+        if (!r.ok) throw new Error('File not found: ' + fileName);
+        return r.text();
+      }).then(data => {
+        const lines = data.trim().split('\n');
+        const tasks = lines.map(line => {
+          const [topic, main, name] = line.split('<ww>');
+          return { topic: topic === '0.None' ? 'None' : topic, isMainTask: main === '1', name: name.trim() };
+        });
+        localStorage.setItem('tasks', JSON.stringify(tasks));
+        renderTasks(tasks);
+      }).catch(err => console.error(err));
+    }
+  
+    // --- Goals ---
+    function renderGoals(goals) {
+      goalList.innerHTML = '';
+      goals.forEach(goal => {
+        const li = document.createElement('li');
+        li.innerHTML = `<span>${escapeHtml(goal)}</span><button class="delete-goal">Delete</button>`;
+        li.querySelector('.delete-goal').addEventListener('click', () => removeGoal(goal));
+        goalList.appendChild(li);
+      });
+    }
+    function loadGoalsFromFile(fileName = './goal.txt') {
+      fetch(fileName).then(r => {
+        if (!r.ok) throw new Error('File not found: ' + fileName);
+        return r.text();
+      }).then(data => {
+        const lines = data.trim().split('\n').map(l => l.trim()).filter(Boolean);
+        localStorage.setItem('goals', JSON.stringify(lines));
+        renderGoals(lines);
+      }).catch(err => console.error(err));
+    }
+    addGoalBtn && addGoalBtn.addEventListener('click', () => {
+      const name = goalInput.value.trim();
+      if (!name) return alert('Please enter a goal!');
+      let goals = JSON.parse(localStorage.getItem('goals')) || [];
+      goals.push(name);
+      localStorage.setItem('goals', JSON.stringify(goals));
+      renderGoals(goals);
+      goalInput.value = '';
+    });
+    function removeGoal(goalToRemove) {
+      let goals = JSON.parse(localStorage.getItem('goals')) || [];
+      goals = goals.filter(g => g !== goalToRemove);
+      localStorage.setItem('goals', JSON.stringify(goals));
+      renderGoals(goals);
+    }
+  
+    // --- Queues ---
+    function renderQueues(queues) {
+      queueList.innerHTML = '';
+      queues.forEach(q => {
+        const li = document.createElement('li');
+        li.textContent = q;
+        queueList.appendChild(li);
+      });
+    }
+    function loadQueuesFromFile(fileName = './queue.txt') {
+      fetch(fileName).then(r => {
+        if (!r.ok) throw new Error('File not found: ' + fileName);
+        return r.text();
+      }).then(data => {
+        const queues = data.trim().split('\n').filter(Boolean);
+        renderQueues(queues);
+      }).catch(err => console.error(err));
+    }
+    addQueueBtn && addQueueBtn.addEventListener('click', () => {
+      const name = queueInput.value.trim();
+      if (!name) return alert('Please enter a task for the queue!');
+      const li = document.createElement('li'); li.textContent = name; queueList.appendChild(li);
+      queueInput.value = '';
+    });
+  
+    // --- Notes (note.txt parser) ---
+    async function loadNotesFromFile(fileName = './note.txt') {
+      try {
+        const r = await fetch(fileName);
+        if (!r.ok) throw new Error('File not found: ' + fileName);
+        const data = await r.text();
+        parseNotes(data);
+      } catch (e) { console.error(e); }
+    }
+    function parseNotes(data) {
+      noteList.innerHTML = '';
+      const lines = data.split('\n');
+      let currentTopic = null;
+      let ul = null;
+      lines.forEach(line => {
+        line = line.trim();
+        if (!line) return;
+        if (line.startsWith('TOPIC:')) {
+          currentTopic = line.replace('TOPIC:', '').trim();
+          const h3 = document.createElement('h3'); h3.textContent = `Topic: ${currentTopic}`;
+          noteList.appendChild(h3);
+          ul = document.createElement('ul'); noteList.appendChild(ul);
+        } else if (ul) {
+          const li = document.createElement('li'); li.textContent = line; ul.appendChild(li);
+        }
+      });
+    }
+    addNoteBtn && addNoteBtn.addEventListener('click', () => {
+      const v = noteInput.value.trim();
+      if (!v) return alert('Enter a note');
+      const li = document.createElement('li'); li.textContent = v; noteList.appendChild(li);
+      noteInput.value = '';
+    });
+  
+    // --- Diary ---
+    addDiaryBtn && addDiaryBtn.addEventListener('click', () => {
+      const name = diaryNameInput.value.trim();
+      const content = diaryContentInput.value.trim();
+      if (!name || !content) return alert('Please enter both name and content for the diary entry.');
+      const li = document.createElement('li');
+      li.innerHTML = `<details><summary>${escapeHtml(name)}</summary><p>${escapeHtml(content)}</p></details>`;
+      diaryList.appendChild(li);
+      diaryNameInput.value = ''; diaryContentInput.value = '';
+    });
+    async function loadDiaryFromFile(fileName = './diary.txt') {
+      try {
+        const r = await fetch(fileName);
+        if (!r.ok) throw new Error('File not found: ' + fileName);
+        const data = await r.text();
+        parseDiary(data);
+      } catch (e) { console.error(e); }
+    }
+    function parseDiary(data) {
+      diaryList.innerHTML = '';
+      const entries = data.split('<diarysplit>').map(s => s.trim()).filter(Boolean);
+      entries.forEach(entry => {
+        const lines = entry.split('\n').map(l => l.trim()).filter(Boolean);
+        if (lines.length >= 2) {
+          const day = lines[0], name = lines[1], content = lines.slice(2).join('\n');
+          const li = document.createElement('li');
+          li.innerHTML = `<details><summary>${escapeHtml(day)} - ${escapeHtml(name)}</summary><p>${escapeHtml(content)}</p></details>`;
+          diaryList.appendChild(li);
         }
       });
     }
   
-    // Tải nội dung từ file note.txt khi trang được tải
-    loadNotesFromFile();
-  });
-
-
-document.getElementById("add-diary").addEventListener("click", function () {
-    const name = document.getElementById("diary-name").value.trim();
-    const content = document.getElementById("diary-content").value.trim();
-    
-    if (name && content) {
-        const listItem = document.createElement("li");
-        listItem.innerHTML = `
-            <details>
-                <summary>${name}</summary>
-                <p>${content}</p>
-            </details>
-        `;
-        document.getElementById("diary-list").appendChild(listItem);
-        
-        // Reset input fields
-        document.getElementById("diary-name").value = "";
-        document.getElementById("diary-content").value = "";
-    } else {
-        alert("Please enter both name and content for the diary entry.");
+    // --- Info / Charts ---
+    function parseInfoData(data) {
+      const lines = data.trim().split('\n');
+      const info = {};
+      lines.forEach(line => {
+        const [key, ...rest] = line.split(':');
+        if (!key) return;
+        const value = rest.join(':').trim();
+        if (key === 'bar' || key === 'pie') {
+          try { info[key] = JSON.parse(value); } catch { info[key] = []; }
+        } else info[key] = value;
+      });
+      return info;
     }
-});
-
-
-document.addEventListener('DOMContentLoaded', function () {
-    const diaryList = document.getElementById('diary-list');
-
-    // Hàm đọc nội dung từ file diary.txt
-    async function loadDiaryFromFile() {
-        try {
-            const response = await fetch('diary.txt'); // Đường dẫn tới file
-            const data = await response.text();
-            parseDiary(data);
-        } catch (error) {
-            console.error('Không thể tải file diary.txt:', error);
-        }
+    function updateInfo(info) {
+      const nameLabel = document.querySelector('label[for="name"]');
+      const moneyLabel = document.querySelector('label[for="money"]');
+      const levelLabel = document.querySelector('label[for="level"]');
+      if (nameLabel) nameLabel.textContent = info.name || 'None';
+      if (moneyLabel) moneyLabel.textContent = info.money || '0$';
+      if (levelLabel) levelLabel.textContent = `Lv ${info.level || 0}`;
+      const progressBar = document.getElementById('current-progress');
+      if (progressBar && typeof info.value !== 'undefined') progressBar.value = info.value * 100;
     }
-
-    // Hàm phân tích nội dung và hiển thị
-    function parseDiary(data) {
-        const entries = data.split('<diarysplit>'); // Tách từng nhật ký
-        diaryList.innerHTML = ''; // Xóa nội dung cũ trước khi hiển thị mới
-
-        entries.forEach(entry => {
-            const lines = entry.trim().split('\n'); // Chia thành từng dòng
-            
-            if (lines.length >= 3) {
-                const day = lines[0];     // Dòng đầu là ngày
-                const name = lines[1];    // Dòng thứ hai là tiêu đề
-                const content = lines.slice(2).join('\n'); // Phần còn lại là nội dung
-
-                const listItem = document.createElement('li');
-                listItem.innerHTML = `
-                    <details>
-                        <summary>${day} - ${name}</summary>
-                        <p>${content}</p>
-                    </details>
-                `;
-                diaryList.appendChild(listItem);
-            }
+    function updateCharts(info) {
+      try {
+        const barCtx = document.getElementById('barChart').getContext('2d');
+        new Chart(barCtx, {
+          type: 'bar',
+          data: {
+            labels: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],
+            datasets: [{ label: 'Tasks Completed', data: info.bar || [0,0,0,0,0,0,0] }]
+          },
+          options: { responsive: true }
         });
+        const pieCtx = document.getElementById('pieChart').getContext('2d');
+        new Chart(pieCtx, { type: 'pie', data: { labels: ['Queue','Todo','Task','Goal'], datasets: [{ data: info.pie || [1,1,1,1] }] }, options: { responsive: true } });
+      } catch (e) { console.error('Chart error', e); }
     }
-
-    // Tải nội dung từ file diary.txt khi trang được tải
+    async function loadInfoFromFile(fileName = './info.txt') {
+      try {
+        const r = await fetch(fileName);
+        if (!r.ok) throw new Error('File not found: ' + fileName);
+        const data = await r.text();
+        const info = parseInfoData(data);
+        updateInfo(info);
+        updateCharts(info);
+      } catch (e) { console.error(e); }
+    }
+  
+    // --- initial loads ---
+    loadTodos();
+    loadTodosFromFile();  // đọc todo.txt
+    loadTasksFromFile();
+    loadGoalsFromFile();
+    loadQueuesFromFile();
+    loadNotesFromFile();
     loadDiaryFromFile();
-});
+    loadInfoFromFile();
+  });
+  
+  // --- small util ---
+  function escapeHtml(str = '') {
+    return String(str).replace(/[&<>"']/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[s]));
+  }
+  

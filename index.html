@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="manifest" href="./manifest.json">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <script>
@@ -23,145 +24,145 @@
       });
     }
   </script>
-
+  
   <!-- Tab Bar -->
-  <div class="tab-bar">
-    <a href="#" class="tab-link active" data-tab="home">Main</a>
-    <a href="#" class="tab-link" data-tab="todo">Todo</a>
-    <a href="#" class="tab-link" data-tab="task">Task</a>
-    <a href="#" class="tab-link" data-tab="goal">Goal</a>
-    <a href="#" class="tab-link" data-tab="queue">Queue</a>
-    <a href="#" class="tab-link" data-tab="note">Note</a>
-    <a href="#" class="tab-link" data-tab="diary">Diary</a>
-  </div>
+  <nav class="tab-bar">
+    <a href="#" class="tab-link active" data-tab="home"><i class="fa-solid fa-house"></i><span>Main</span></a>
+    <a href="#" class="tab-link" data-tab="todo"><i class="fa-solid fa-list-check"></i><span>Todo</span></a>
+    <a href="#" class="tab-link" data-tab="queue"><i class="fa-solid fa-layer-group"></i><span>Queue</span></a>
+    <a href="#" class="tab-link" data-tab="task"><i class="fa-solid fa-briefcase"></i><span>Task</span></a>
+    <a href="#" class="tab-link" data-tab="goal"><i class="fa-solid fa-bullseye"></i><span>Goal</span></a>
+    <a href="#" class="tab-link" data-tab="note"><i class="fa-solid fa-note-sticky"></i><span>Note</span></a>
+    <a href="#" class="tab-link" data-tab="diary"><i class="fa-solid fa-book"></i><span>Diary</span></a>
+  </nav>
 
-  <!-- Nội dung của từng tab -->
-  <div id="home" class="tab-content active">
-    <h1>Main</h1>
-    <!-- Thêm info-container -->
-    <div class="info-container">
-      <!-- Hai label nằm ngang nhau -->
-      <div class="info-top">
+  <!-- Nội dung -->
+  <main>
+    <section id="home" class="tab-content active">
+      <h1>Dashboard</h1>
+      <div class="info-container">
+        <div class="info-top">
           <label for="name">None</label>
           <label for="money">0$</label>
-      </div>
-
-      <!-- Label và progress bar ở dưới -->
-      <div class="info-bottom">
+        </div>
+        <div class="info-bottom">
           <label for="level">Lv 0:</label>
           <progress id="current-progress" value="0" max="100"></progress>
+        </div>
       </div>
-    </div>
-    <div class="chart-container">
+      <div class="chart-container">
         <canvas id="barChart"></canvas>
         <canvas id="pieChart"></canvas>
-    </div>
-    
-  </div>
+      </div>
+    </section>
 
-  <div id="todo" class="tab-content">
-    <h1>Todo</h1>
-    <div class="todo-container">
+    <section id="todo" class="tab-content">
+      <h1>Todo</h1>
+      <div class="todo-container">
         <div class="todo-input">
-            <input type="text" id="todo-name" placeholder="Enter a new todo">
-            <select id="time">
-                <option value="morning">Morning (7.am -> 12.am)</option>
-                <option value="afternoon">Afternoon (12.am -> 6.pm)</option>
-                <option value="evening">Evening (6.pm -> 6.am)</option>
-            </select>
-            <button id="add-todo">Add Todo</button>
+          <input type="text" id="todo-name" placeholder="Enter a new todo">
+          <select id="time">
+            <option value="morning">Morning (7.am -> 12.am)</option>
+            <option value="afternoon">Afternoon (12.am -> 6.pm)</option>
+            <option value="evening">Evening (6.pm -> 6.am)</option>
+          </select>
+          <button id="add-todo"><i class="fa-solid fa-plus"></i> Add Todo</button>
         </div>
         <div class="todo-lists">
-            <h2>Morning</h2>
-            <ul id="morning-todo-list"></ul>
-            <h2>Afternoon</h2>
-            <ul id="afternoon-todo-list"></ul>
-            <h2>Evening</h2>
-            <ul id="evening-todo-list"></ul>
+          <h2>Morning</h2><ul id="morning-todo-list"></ul>
+          <h2>Afternoon</h2><ul id="afternoon-todo-list"></ul>
+          <h2>Evening</h2><ul id="evening-todo-list"></ul>
         </div>
-    </div>
-  </div>
-
-  <div id="task" class="tab-content">
-    <h1>TaskList</h1>
-    <div class="task-container">
-      <div class="task-input">
-        <input type="text" id="task-name" placeholder="Enter a new task">
-        <input type="text" id="topic" placeholder="Enter topic (e.g., Work)">
-        <button id="add-task">Add Task</button>
       </div>
-      <ul id="task-list"></ul>
-    </div>
-  </div>
+    </section>
 
-  <div id="goal" class="tab-content">
-    <h1>Goal</h1>
-    <div class="goal-container">
-      <div class="goal-input">
-        <input type="text" id="goal-name" placeholder="Enter a new goal">
-        <button id="add-goal">Add goal</button>
+    <section id="task" class="tab-content">
+      <h1>Task List</h1>
+      <div class="task-container">
+        <div class="task-input">
+          <input type="text" id="task-name" placeholder="Enter a new task">
+          <input type="text" id="topic" placeholder="Enter topic (e.g., Work)">
+          <button id="add-task"><i class="fa-solid fa-plus"></i> Add Task</button>
+        </div>
+        <ul id="task-list"></ul>
       </div>
-      <ul id="goal-list"></ul>
-    </div>
-  </div>
+    </section>
 
-  <div id="queue" class="tab-content">
-    <h1>Queue</h1>
-    <div class="queue-container">
-      <div class="queue-input">
-        <input type="text" id="queue-name" placeholder="Enter a new task">
-        <button id="add-queue">Add queue</button>
+    <section id="goal" class="tab-content">
+      <h1>Goal</h1>
+      <div class="goal-container">
+        <div class="goal-input">
+          <input type="text" id="goal-name" placeholder="Enter a new goal">
+          <button id="add-goal"><i class="fa-solid fa-bullseye"></i> Add goal</button>
+        </div>
+        <ul id="goal-list"></ul>
       </div>
-      <ul id="queue-list"></ul>
-    </div>
-  </div>
+    </section>
 
-  <div id="note" class="tab-content">
-    <h1>Note</h1>
-    <div class="note-container">
-      <div class="note-input">
-        <input type="text" id="note-name" placeholder="Enter note here...">
-        <button id="add-note">Add note</button>
+    <section id="queue" class="tab-content">
+      <h1>Queue</h1>
+      <div class="queue-container">
+        <div class="queue-input">
+          <input type="text" id="queue-name" placeholder="Enter a new task">
+          <button id="add-queue"><i class="fa-solid fa-plus"></i> Add queue</button>
+        </div>
+        <ul id="queue-list"></ul>
       </div>
-      <ul id="note-list"></ul>
-    </div>
-  </div>
+    </section>
 
-  <div id="diary" class="tab-content">
-    <h1>Diary</h1>
-    <div class="diary-container">
-      <div class="diary-input">
-        <input type="text" id="diary-name" placeholder="Enter diary name...">
-        <textarea id="diary-content" placeholder="Enter diary content..."></textarea>
-        <button id="add-diary">Add diary</button>
+    <section id="note" class="tab-content">
+      <h1>Note</h1>
+      <div class="note-container">
+        <div class="note-input">
+          <input type="text" id="note-name" placeholder="Enter note here...">
+          <button id="add-note"><i class="fa-solid fa-plus"></i> Add note</button>
+        </div>
+        <ul id="note-list"></ul>
       </div>
-      <ul id="diary-list"></ul>
-    </div>
-  </div>
+    </section>
 
+    <section id="diary" class="tab-content">
+      <h1>Diary</h1>
+      <div class="diary-container">
+        <div class="diary-input">
+          <input type="text" id="diary-name" placeholder="Enter diary name...">
+          <textarea id="diary-content" placeholder="Enter diary content..."></textarea>
+          <button id="add-diary"><i class="fa-solid fa-book"></i> Add diary</button>
+        </div>
+        <ul id="diary-list"></ul>
+      </div>
+    </section>
+  </main>
 
-  <!-- Script tab-bar -->
   <script>
-    // Chuyển đổi tab
     const tabs = document.querySelectorAll('.tab-link');
     const contents = document.querySelectorAll('.tab-content');
 
     tabs.forEach(tab => {
       tab.addEventListener('click', (e) => {
         e.preventDefault();
-
-        // Loại bỏ class active khỏi tất cả các tab và nội dung
         tabs.forEach(t => t.classList.remove('active'));
         contents.forEach(c => c.classList.remove('active'));
-
-        // Thêm class active vào tab và nội dung được chọn
         tab.classList.add('active');
         document.getElementById(tab.dataset.tab).classList.add('active');
       });
     });
 
-  </script>
+    // Di chuyển tab-bar theo màn hình
+    function updateTabBarPosition() {
+      const bar = document.querySelector('.tab-bar');
+      if (window.innerWidth > 768) {
+        bar.style.top = '0';
+        bar.style.bottom = 'auto';
+      } else {
+        bar.style.top = 'auto';
+        bar.style.bottom = '0';
+      }
+    }
 
+    window.addEventListener('resize', updateTabBarPosition);
+    window.addEventListener('load', updateTabBarPosition);
+  </script>
   <script src="script.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@ import http.server
 import socketserver
 
 # Cấu hình server
-PORT = 8020  # Bạn có thể thay đổi port nếu cần
+PORT = 8010  # Bạn có thể thay đổi port nếu cần
 Handler = http.server.SimpleHTTPRequestHandler
 
 # Tạo server
